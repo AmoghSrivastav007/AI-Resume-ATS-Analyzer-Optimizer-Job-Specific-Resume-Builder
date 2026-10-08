@@ -1,0 +1,45 @@
+Product Manager
+
+Company: ProductCo
+Location: New York, NY (Hybrid)
+Type: Full-time
+
+About the Role:
+We're looking for a strategic Product Manager to own our core product features. You'll define product vision, prioritize roadmap, and work cross-functionally to deliver customer value.
+
+Required Skills:
+- 4+ years of product management experience
+- Strong analytical and data-driven decision making skills
+- Experience with agile methodologies (Scrum, Kanban)
+- Excellent communication and stakeholder management
+- Ability to write clear product requirements and user stories
+- Experience conducting user research and usability testing
+- Proficiency with product management tools (Jira, Asana, Productboard)
+- Understanding of software development lifecycle
+- Strong prioritization and time management skills
+- Customer-focused mindset
+
+Preferred Skills:
+- Technical background or CS degree
+- Experience with B2B SaaS products
+- Knowledge of SQL and data analysis
+- Familiarity with A/B testing and experimentation
+- Experience with product analytics tools (Mixpanel, Amplitude, Google Analytics)
+- Understanding of UX/UI design principles
+- Experience managing products at scale (100K+ users)
+
+Responsibilities:
+- Define product vision, strategy, and roadmap
+- Gather and prioritize product requirements
+- Work closely with engineering, design, and marketing teams
+- Conduct user research and competitive analysis
+- Write detailed product specs and user stories
+- Monitor product metrics and iterate based on data
+- Present product updates to leadership
+- Manage product launches and go-to-market strategies
+
+Education:
+Bachelor's degree in Business, Computer Science, or related field; MBA preferred
+
+Benefits:
+Competitive salary, equity, comprehensive health benefits, 401k, professional development, hybrid work

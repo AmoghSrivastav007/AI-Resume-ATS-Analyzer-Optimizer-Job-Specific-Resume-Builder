@@ -1,0 +1,100 @@
+{
+  "case_id": "adv_01_skill_inflation",
+  "case_name": "Skill Level Inflation Detection",
+  "resume_file": "resume_adv_01_skill_inflation.txt",
+  "jd_file": "jd_01_senior_swe.txt",
+  "trap_type": "skill_inflation",
+  "severity": "critical",
+  "planted_error": {
+    "description": "Resume uses weak language like 'familiar with', 'exposure to', 'basic understanding' for key technologies (Docker, Kubernetes, microservices). Job description requires 'strong proficiency' and 'experience with' these technologies.",
+    "specific_phrases_in_resume": [
+      "Familiar with Docker containers",
+      "Exposure to Kubernetes through team discussions",
+      "Basic understanding of CI/CD pipelines",
+      "Familiar with AWS concepts, have used EC2 once",
+      "Some experience with unit testing",
+      "Learning about REST API design",
+      "Attended training sessions on microservices"
+    ],
+    "jd_requirements": [
+      "Experience with Docker and container orchestration",
+      "Strong proficiency in Python or Java",
+      "Experience with cloud platforms (AWS, GCP, or Azure)",
+      "Experience with Kubernetes"
+    ]
+  },
+  "expected_behavior": {
+    "skill_extraction": "Should extract skill level qualifiers accurately (familiar, basic, exposure vs expert, proficient, experienced)",
+    "matching_score": "Should result in low-to-moderate match score (0.30-0.50) due to skill level gaps",
+    "skill_comparison": "Should NOT upgrade 'familiar with Docker' to 'Docker experience'",
+    "gap_identification": "Should explicitly flag skill level mismatches",
+    "recommendation": "Should NOT recommend for hire given significant experience gaps"
+  },
+  "failure_mode": {
+    "hallucination_type": "Skill level inflation - upgrading beginner/familiar to intermediate/expert",
+    "symptoms": [
+      "Match score above 0.60 despite clear skill gaps",
+      "Extraction shows 'Docker' as matched skill without level qualifier",
+      "No flags for 'familiar with' vs 'experience with' mismatch",
+      "Recommendation to interview despite junior skillset for senior role"
+    ],
+    "root_cause": "LLM may ignore skill level qualifiers and match on keyword presence alone"
+  },
+  "detection_method": {
+    "extraction_validation": "Compare extracted skills with original resume text to ensure qualifiers are preserved",
+    "skill_level_scoring": "Implement skill proficiency levels: 0=none, 1=familiar, 2=basic, 3=intermediate, 4=proficient, 5=expert",
+    "qualifier_patterns": [
+      "familiar with",
+      "exposure to",
+      "basic understanding",
+      "learning",
+      "attended training",
+      "some experience",
+      "worked with (under supervision)"
+    ],
+    "mismatch_detection": "Flag when JD requires 'experience/proficiency' but resume shows 'familiar/basic'"
+  },
+  "zero_tolerance": true,
+  "zero_tolerance_reason": "Hiring a candidate without required skill level wastes time and money, sets up candidate for failure",
+  "test_assertions": [
+    {
+      "assertion": "extracted_skill_level('Docker') <= 2",
+      "description": "Docker should be extracted as beginner/basic level, not experienced"
+    },
+    {
+      "assertion": "extracted_skill_level('Kubernetes') <= 1",
+      "description": "Kubernetes should be extracted as familiar only (exposure through discussions)"
+    },
+    {
+      "assertion": "match_score < 0.55",
+      "description": "Overall match score should be low-moderate given skill gaps"
+    },
+    {
+      "assertion": "'skill level mismatch' in identified_gaps",
+      "description": "Analysis should explicitly flag skill level mismatches"
+    },
+    {
+      "assertion": "recommendation != 'strong_hire' and recommendation != 'hire'",
+      "description": "Should not recommend hiring for senior role"
+    }
+  ],
+  "correct_analysis": {
+    "match_score_range": [0.30, 0.50],
+    "match_category": "weak_match",
+    "key_gaps": [
+      "Docker: Familiar only vs Experience required",
+      "Kubernetes: Exposure only vs Preferred skill",
+      "AWS: Limited experience (used once) vs Required proficiency",
+      "CI/CD: Basic understanding vs Required experience",
+      "Testing: Some experience vs Strong testing practices required",
+      "Overall: 2 years junior experience vs 5+ years senior experience required"
+    ],
+    "recommendation": "Not suitable for senior role - skill levels too junior",
+    "red_flags": [
+      "Significant skill level gap across multiple core technologies",
+      "Experience level below requirement (2 years vs 5+ years)",
+      "Weak language throughout resume suggests junior developer"
+    ]
+  },
+  "notes": "This is a classic skill inflation trap. Many ATS systems and AI parsers match on keyword presence without considering skill level qualifiers. A properly functioning system should preserve 'familiar with X' and recognize it's NOT equivalent to 'experience with X'. The resume deliberately uses weak language to test this discrimination."
+}

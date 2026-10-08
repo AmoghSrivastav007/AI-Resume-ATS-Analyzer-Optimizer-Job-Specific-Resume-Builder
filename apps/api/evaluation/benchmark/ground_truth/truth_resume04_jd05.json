@@ -1,0 +1,74 @@
+{
+  "resume_id": "resume_04_mid_devops",
+  "resume_file": "resume_04_mid_devops.txt",
+  "jd_id": "jd_05_devops_engineer",
+  "jd_file": "jd_05_devops_engineer.txt",
+  "expected_match_score": 0.88,
+  "score_range": [0.84, 0.92],
+  "match_category": "strong_match",
+  "match_rationale": "David Martinez is a strong match for this DevOps Engineer role. 5 years of relevant experience with deep AWS expertise, Kubernetes/Docker mastery, Terraform proficiency, and comprehensive monitoring skills. Meets or exceeds all major requirements.",
+  "key_matched_skills": [
+    "AWS",
+    "Kubernetes",
+    "Docker",
+    "Terraform",
+    "Python",
+    "Bash",
+    "CI/CD (GitHub Actions, GitLab CI, Jenkins)",
+    "Prometheus",
+    "Grafana",
+    "ELK Stack",
+    "Ansible",
+    "Linux administration",
+    "VPC/networking",
+    "ArgoCD"
+  ],
+  "missing_critical_skills": [
+    "Go programming language"
+  ],
+  "partially_matched_skills": {
+    "GCP": "Basic experience mentioned, not expert",
+    "Service mesh": "Not explicitly mentioned",
+    "CloudFormation": "Has Terraform, CloudFormation listed in JD"
+  },
+  "ats_score_expectations": {
+    "keyword_density": [0.80, 0.92],
+    "section_completeness": 1.0,
+    "format_quality": [0.85, 0.95],
+    "experience_match": [0.85, 0.95]
+  },
+  "hallucination_check": {
+    "fabricated_skills": [],
+    "exaggerated_experience": false,
+    "invented_companies": false,
+    "skill_level_inflation": false,
+    "date_inconsistencies": false
+  },
+  "detailed_skill_comparison": {
+    "required_skills_coverage": 0.92,
+    "preferred_skills_coverage": 0.60,
+    "experience_level_match": "meets_requirement",
+    "education_match": true
+  },
+  "red_flags": [],
+  "strengths": [
+    "Meets 4+ years experience requirement with 5 years",
+    "AWS expert with multiple certifications",
+    "Strong Kubernetes and containerization skills",
+    "Infrastructure as code expertise (Terraform)",
+    "Comprehensive monitoring and observability experience",
+    "Cost optimization track record",
+    "Security and compliance experience (SOC2, HIPAA)",
+    "On-call and incident response experience",
+    "Active in open source and community"
+  ],
+  "weaknesses": [
+    "Limited GCP experience (job mentions AWS or GCP)",
+    "No explicit Go programming experience (has Python, Bash)",
+    "No service mesh experience mentioned",
+    "Could have more security specialization"
+  ],
+  "recommendation": "Strong hire - excellent technical fit",
+  "confidence_level": 0.92,
+  "notes": "David is a solid DevOps engineer with the right experience level and skill set. Strong AWS focus aligns well since that's the primary cloud platform. Multiple relevant certifications (CKA, Terraform, AWS) demonstrate commitment to excellence. Missing Go is minor since Python and Bash cover most scripting needs."
+}

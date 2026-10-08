@@ -1,0 +1,61 @@
+MARCUS JOHNSON
+Senior Software Architect
+
+Email: marcus.johnson@email.com | Phone: (415) 555-0299
+Location: San Francisco, CA | LinkedIn: linkedin.com/in/marcusjohnson
+
+PROFESSIONAL SUMMARY
+Seasoned software architect with deep expertise in system design and technical leadership. Proven track record of architecting scalable systems and leading engineering teams to success.
+
+TECHNICAL SKILLS
+Languages: Python, Java, JavaScript, Go
+Architecture: Microservices, Event-Driven, Domain-Driven Design
+Cloud: AWS (EC2, S3, Lambda, ECS, RDS)
+Databases: PostgreSQL, MongoDB, Redis, DynamoDB
+Tools: Docker, Kubernetes, Terraform, Jenkins
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Architect | TechCorp Solutions | San Francisco, CA
+June 2023 - August 2023
+
+• Led comprehensive migration of legacy monolith system to modern microservices architecture
+• Architected new payment processing system from ground up handling enterprise-scale transactions
+• Mentored team of 3 junior engineers on system design principles and architectural best practices
+• Reduced infrastructure operational costs by 40% through strategic optimization initiatives
+• Built strong engineering team culture focused on excellence and continuous improvement
+• Designed and implemented event-driven architecture for real-time data processing
+• Established architectural review board and RFC process for major technical decisions
+• Collaborated with cross-functional teams across product, design, and operations
+• Drove adoption of modern DevOps practices and CI/CD pipeline improvements
+
+Software Engineer | StartupVentures | Palo Alto, CA
+January 2022 - May 2023
+
+• Developed backend features for SaaS platform using Django and PostgreSQL
+• Implemented REST APIs and integrated with third-party services
+• Participated in code reviews and pair programming sessions
+• Wrote unit tests and improved test coverage
+• Collaborated with product team on feature requirements
+
+Junior Developer | WebTech Inc. | San Jose, CA
+August 2021 - December 2021
+
+• Assisted senior developers with feature implementation
+• Fixed bugs and improved application stability
+• Learned agile development methodologies
+• Attended architecture meetings and design discussions
+
+EDUCATION
+
+Bachelor of Science in Computer Science | San Jose State University | 2021
+GPA: 3.4/4.0
+
+CERTIFICATIONS
+
+• AWS Certified Solutions Architect - Associate (2023)
+
+PROJECTS
+
+• Open Source Contributions: Contributed to several popular GitHub projects
+• Technical Blog: Write about software architecture and system design patterns

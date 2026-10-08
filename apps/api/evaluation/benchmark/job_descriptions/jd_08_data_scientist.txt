@@ -1,0 +1,45 @@
+Data Scientist
+
+Company: Analytics Labs
+Location: Chicago, IL (Remote)
+Type: Full-time
+
+About the Role:
+We're seeking a Data Scientist to extract insights from complex datasets and build predictive models. You'll work on problems spanning customer analytics, forecasting, and optimization.
+
+Required Skills:
+- 3+ years of data science experience
+- Strong proficiency in Python (Pandas, NumPy, scikit-learn)
+- Solid understanding of statistical methods and machine learning algorithms
+- Experience with data visualization (Matplotlib, Seaborn, Plotly)
+- Proficiency in SQL and database querying
+- Experience with A/B testing and experimental design
+- Knowledge of supervised and unsupervised learning techniques
+- Ability to communicate complex findings to non-technical stakeholders
+- Strong problem-solving and analytical thinking
+- Experience with Jupyter notebooks
+
+Preferred Skills:
+- Experience with big data tools (Spark, Hadoop)
+- Knowledge of deep learning frameworks (TensorFlow, PyTorch)
+- Familiarity with cloud platforms (AWS, GCP, Azure)
+- Experience with time series forecasting
+- Knowledge of causal inference techniques
+- Experience with business intelligence tools (Tableau, Looker, Power BI)
+- Advanced degree (Master's or PhD) in a quantitative field
+
+Responsibilities:
+- Analyze large datasets to identify trends and patterns
+- Build and deploy predictive models
+- Design and analyze A/B tests
+- Create data visualizations and dashboards
+- Collaborate with product and engineering teams
+- Present findings to stakeholders and leadership
+- Document methodologies and results
+- Stay current with latest data science techniques
+
+Education:
+Bachelor's degree in Statistics, Mathematics, Computer Science, or related field; Master's preferred
+
+Benefits:
+Competitive salary, stock options, health insurance, remote work, conference attendance, learning budget

@@ -1,0 +1,67 @@
+THOMAS RICHARDS
+DevOps Engineer
+
+Email: thomas.richards@email.com | Phone: (206) 555-0234
+Location: Seattle, WA | LinkedIn: linkedin.com/in/thomasrichards
+
+PROFESSIONAL SUMMARY
+DevOps engineer with 5 years of experience managing cloud infrastructure and building CI/CD pipelines. Expert in containerization, orchestration, and infrastructure automation.
+
+TECHNICAL SKILLS
+Cloud Platforms: AWS, Google Cloud Platform, Azure
+Containers & Orchestration: Docker, Kubernetes, Helm
+Infrastructure as Code: Terraform, CloudFormation, Ansible
+CI/CD: Jenkins, GitHub Actions, GitLab CI
+Monitoring: Prometheus, Grafana, ELK Stack, Datadog
+Scripting: Python, Bash, PowerShell, Go
+Networking: VPC, Load Balancers, DNS, CDN
+
+PROFESSIONAL EXPERIENCE
+
+Senior DevOps Engineer | CloudSystems Corp | Seattle, WA
+March 2020 - Present
+
+• Manage AWS infrastructure for high-traffic SaaS platform
+• Design and implement Kubernetes clusters on EKS
+• Build and maintain CI/CD pipelines for automated deployments
+• Implement monitoring and alerting systems
+• Optimize cloud costs and resource utilization
+• Ensure security compliance and best practices
+• Participate in on-call rotation for production support
+• Mentor junior DevOps engineers
+
+DevOps Engineer | TechStart Inc. | Seattle, WA
+June 2018 - February 2020
+
+• Built Docker containers for microservices applications
+• Automated infrastructure provisioning with Terraform
+• Configured and maintained Jenkins CI/CD pipelines
+• Implemented log aggregation and monitoring
+• Collaborated with development teams on deployment strategies
+
+EDUCATION
+
+Bachelor of Science in Information Technology | University of Washington | 2018
+
+CERTIFICATIONS
+
+• AWS Certified Master Architect (2023)
+• Google Certified Senior Cloud Engineer (2023)
+• Certified Kubernetes Expert (CKE) (2022)
+• Docker Certified DevOps Professional (2022)
+• Advanced Python Programming Certification - Stanford University (2021)
+• HashiCorp Terraform Professional (2022)
+• Red Hat Certified Engineer (RHCE) (2020)
+
+ACHIEVEMENTS
+
+• Reduced deployment time by 70% through automation
+• Achieved 99.95% uptime SLA for production systems
+• Successfully migrated 50+ services to Kubernetes
+• Speaker at Seattle DevOps Meetup
+
+TECHNICAL PROJECTS
+
+• Built automated disaster recovery system
+• Implemented multi-region active-active architecture
+• Created internal tools for infrastructure management

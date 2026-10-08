@@ -1,0 +1,77 @@
+OLIVIA MARTINEZ
+UX Designer
+
+Email: olivia.martinez@email.com | Phone: (503) 555-0188
+Location: Portland, OR | Portfolio: oliviamartinez.design
+LinkedIn: linkedin.com/in/oliviamartinezux | Dribbble: dribbble.com/oliviamrtnz
+
+ABOUT ME
+Creative UX designer with 4 years of experience crafting user-centered digital experiences. Passionate about combining user research, interaction design, and visual design to solve complex problems. Skilled in design systems and collaborating with cross-functional teams.
+
+DESIGN SKILLS
+UX/UI Design: User Research, Wireframing, Prototyping, User Testing, Information Architecture
+Design Tools: Figma (expert), Adobe XD, Sketch, Adobe Creative Suite (Photoshop, Illustrator)
+Prototyping: Figma Interactive Prototypes, Principle, ProtoPie
+Research Methods: User Interviews, Surveys, Usability Testing, Card Sorting, A/B Testing
+Development: HTML/CSS (basic), understanding of React components
+Collaboration: Design Systems, Component Libraries, Agile/Scrum workflows
+
+PROFESSIONAL EXPERIENCE
+
+UX Designer | DesignStudio Co. | Portland, OR
+March 2021 - Present
+• Lead UX design for B2B SaaS platform with 25K+ users
+• Conduct user research including 30+ interviews and 15 usability tests annually
+• Design end-to-end user flows, wireframes, and high-fidelity mockups in Figma
+• Built and maintain comprehensive design system with 50+ reusable components
+• Collaborate with product managers and engineers in agile sprints
+• Increased user satisfaction score (CSAT) from 7.2 to 8.6 through UX improvements
+• Redesigned onboarding flow reducing time-to-value by 40%
+• Present designs to stakeholders and incorporate feedback iteratively
+
+Junior UX Designer | CreativeAgency | Portland, OR
+June 2020 - February 2021
+• Designed mobile-first websites and applications for agency clients
+• Created wireframes, mockups, and interactive prototypes
+• Conducted competitive analysis and heuristic evaluations
+• Assisted senior designers with user research and testing
+• Delivered pixel-perfect designs matching brand guidelines
+• Worked on 12+ client projects ranging from startups to Fortune 500 companies
+
+UX Design Intern | TechStartup | Remote
+January 2020 - May 2020
+• Redesigned key product features based on user feedback
+• Created user personas and journey maps
+• Conducted usability tests with 15 participants
+• Learned Figma and design thinking methodologies
+• Collaborated with design team in remote setting
+
+EDUCATION
+Bachelor of Fine Arts in Digital Design | Portland State University | 2019
+Focus: User Experience Design | GPA: 3.8/4.0
+
+UX Design Certificate | General Assembly | 2019
+Intensive 10-week program covering UX research, interaction design, and prototyping
+
+PROJECTS & PORTFOLIO
+• Mobile Banking App: Redesigned mobile banking experience improving task completion by 30%
+• E-commerce Redesign: Led UX audit and redesign increasing conversion rate by 22%
+• Design System: Built comprehensive design system adopted across 3 products
+• Portfolio: oliviamartinez.design showcasing 8 case studies with full design process
+
+ACHIEVEMENTS
+• "Best UX Design" - Portland Design Awards 2023
+• Featured designer on Dribbble with 2.5K followers
+• Speaker at Portland Design Week 2023: "Building Design Systems That Scale"
+
+CERTIFICATIONS
+• Nielsen Norman Group UX Certification - 2022
+• Google UX Design Professional Certificate - 2020
+
+ADDITIONAL SKILLS
+• Accessibility: WCAG 2.1 guidelines, designing for screen readers
+• Motion Design: Basic animation skills with After Effects and Lottie
+• Illustration: Custom iconography and illustrations for product interfaces
+• Strong understanding of design principles: typography, color theory, visual hierarchy
+• Excellent communication and presentation skills
+• Experience working remotely and managing design projects independently

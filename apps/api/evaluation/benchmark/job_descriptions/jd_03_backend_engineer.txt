@@ -1,0 +1,44 @@
+Backend Engineer
+
+Company: CloudScale Systems
+Location: Austin, TX (Hybrid)
+Type: Full-time
+
+About the Role:
+Join our backend team to build scalable APIs and services that power our SaaS platform. You'll work on high-traffic systems processing millions of requests daily.
+
+Required Skills:
+- 3-5 years of backend development experience
+- Expert-level knowledge of Python and FastAPI or Django
+- Strong experience with PostgreSQL and database optimization
+- Experience building and maintaining RESTful APIs
+- Understanding of authentication and authorization (OAuth2, JWT)
+- Experience with caching strategies (Redis, Memcached)
+- Knowledge of asynchronous programming and task queues (Celery, RQ)
+- Familiarity with Docker and containerized applications
+- Experience with Git and collaborative development workflows
+- Strong testing practices (unit, integration, e2e)
+
+Preferred Skills:
+- Experience with GraphQL
+- Knowledge of Kubernetes and container orchestration
+- Familiarity with event-driven architectures
+- Experience with observability tools (Sentry, New Relic)
+- Understanding of microservices patterns
+- Knowledge of security best practices (OWASP)
+- Experience with performance profiling and optimization
+
+Responsibilities:
+- Develop and maintain backend services and APIs
+- Design database schemas and optimize queries
+- Implement secure authentication and authorization systems
+- Write comprehensive tests and documentation
+- Participate in on-call rotation for production support
+- Collaborate with frontend engineers and product team
+- Review code and provide constructive feedback
+
+Education:
+Bachelor's degree in Computer Science or equivalent experience
+
+Benefits:
+Competitive salary, equity, health benefits, 401k, professional development budget, hybrid work

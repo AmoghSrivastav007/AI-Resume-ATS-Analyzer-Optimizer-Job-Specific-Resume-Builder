@@ -1,0 +1,56 @@
+EMILY NGUYEN
+QA Engineer
+
+emily.nguyen@email.com | (512) 555-0156 | Austin, TX
+LinkedIn: linkedin.com/in/emilynguyen | GitHub: github.com/enguyen-qa
+
+OBJECTIVE
+Detail-oriented QA engineer with 1.5 years of experience in test automation and manual testing. Seeking to contribute strong analytical skills and passion for quality to a growing engineering team.
+
+SKILLS
+Testing: Manual Testing, Test Automation, Regression Testing, Smoke Testing, API Testing
+Automation: Selenium WebDriver, Cypress (basic), Playwright (learning)
+Languages: Python, JavaScript (basic)
+Tools: Postman, Jira, TestRail, Git, VS Code
+Methodologies: Agile, Scrum, Test-Driven Development (basic understanding)
+Databases: SQL queries (basic), PostgreSQL
+
+EXPERIENCE
+
+QA Engineer | QualityFirst Software | Austin, TX
+September 2022 - Present
+• Execute manual test cases for web application covering functional and UI testing
+• Create and maintain automated test scripts using Selenium and Python
+• Perform API testing using Postman and validate response data
+• Report and track bugs in Jira with detailed reproduction steps
+• Participate in sprint planning and provide testing estimates
+• Collaborate with developers to understand new features and edge cases
+• Achieved 90% test automation coverage for critical user flows
+
+QA Intern | StartupTech | Austin, TX
+May 2022 - August 2022
+• Assisted QA team with manual testing of web and mobile applications
+• Wrote test cases based on requirements and user stories
+• Performed exploratory testing to identify edge cases
+• Documented bugs with screenshots and detailed descriptions
+• Learned Selenium basics and created first automated test scripts
+• Participated in daily standups and sprint retrospectives
+
+EDUCATION
+Bachelor of Science in Computer Science | University of Texas at Austin | 2022
+Minor: Information Systems | GPA: 3.5/4.0
+Relevant Coursework: Software Testing, Database Systems, Web Development
+
+PROJECTS
+• Personal Project: Built automated test suite for e-commerce demo site using Cypress
+• Capstone: Developed testing framework for university course registration system
+• Completed online course: "Test Automation University" by Applitools
+
+CERTIFICATIONS
+• ISTQB Certified Tester Foundation Level (CTFL) - 2023
+
+ADDITIONAL INFORMATION
+• Active member of Austin QA meetup group
+• Learning Playwright and exploring performance testing with K6
+• Familiar with CI/CD concepts through GitHub Actions exposure
+• Strong attention to detail and methodical approach to testing

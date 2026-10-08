@@ -225,6 +225,7 @@ def _insert_section_facts(
         add_fact("title", contact.get("full_name") or "", {"field": "full_name"})
     elif section_type == "experience":
         for item in payload.get("work_experience") or []:
+            add_fact("other", item.get("company") or "", {"field": "company", "title": item.get("title")})  # Company name is a fact
             add_fact("title", item.get("title") or "", {"company": item.get("company")})
             add_fact("date", item.get("start_date") or "", {"role": item.get("title"), "bound": "start"})
             add_fact("date", item.get("end_date") or "", {"role": item.get("title"), "bound": "end"})

@@ -1,0 +1,212 @@
+[
+  {
+    "case_id": "adv_01_skill_inflation",
+    "case_name": "Skill Level Inflation Detection",
+    "trap_type": "skill_inflation",
+    "severity": "critical",
+    "zero_tolerance": true,
+    "test_results": [
+      {
+        "test_name": "Skill Level Inflation",
+        "severity": "critical",
+        "zero_tolerance": true,
+        "checks": [
+          {
+            "check": "Identified weak skill qualifiers",
+            "status": "info",
+            "details": "Found 13 skills with weak qualifiers",
+            "skills": [
+              "various",
+              "aws",
+              "postgresql",
+              "docker",
+              "agile",
+              "linux",
+              "kubernetes",
+              "sql",
+              "software",
+              "ci",
+              "about",
+              "python",
+              "unit"
+            ]
+          },
+          {
+            "check": "Skill level preservation",
+            "status": "warning",
+            "details": "Manual verification needed: ensure weak qualifiers are not upgraded",
+            "action": "Verify extraction preserves \"familiar with\" vs \"proficient in\""
+          }
+        ],
+        "passed": true,
+        "critical_failure": false
+      }
+    ],
+    "overall_passed": true,
+    "critical_failures": []
+  },
+  {
+    "case_id": "adv_02_experience_exaggeration",
+    "case_name": "Experience Duration Verification",
+    "trap_type": "experience_exaggeration",
+    "severity": "critical",
+    "zero_tolerance": true,
+    "test_results": [
+      {
+        "test_name": "Experience Duration Validation",
+        "severity": "critical",
+        "zero_tolerance": true,
+        "checks": [
+          {
+            "check": "Found date ranges",
+            "status": "info",
+            "details": "Identified 3 employment date ranges",
+            "count": 3
+          },
+          {
+            "check": "Detected 3-month tenure with extensive claims",
+            "status": "critical",
+            "details": "June 2023 - August 2023 = 3 months only",
+            "action": "MUST flag timeline inconsistency with accomplishments"
+          },
+          {
+            "check": "Leadership claims with 3-month tenure",
+            "status": "critical",
+            "details": "Found leadership terms: ['led', 'architected', 'mentored']",
+            "action": "MUST flag as timeline inconsistency"
+          }
+        ],
+        "passed": false,
+        "critical_failure": true
+      }
+    ],
+    "overall_passed": false,
+    "critical_failures": [
+      "Experience Duration Validation"
+    ]
+  },
+  {
+    "case_id": "adv_03_fake_credentials",
+    "case_name": "Fake Credentials and Certifications Detection",
+    "trap_type": "fake_credentials",
+    "severity": "critical",
+    "zero_tolerance": true,
+    "test_results": [
+      {
+        "test_name": "Credential Verification",
+        "severity": "critical",
+        "zero_tolerance": true,
+        "checks": [
+          {
+            "check": "Detected fake certifications",
+            "status": "critical",
+            "details": "Found 5 non-existent certifications",
+            "fake_certs": [
+              "AWS Certified Master Architect",
+              "Google Certified Senior Cloud Engineer",
+              "Certified Kubernetes Expert",
+              "Docker Certified DevOps Professional",
+              "Advanced Python Programming Certification - Stanford"
+            ],
+            "action": "MUST flag these certifications for verification"
+          },
+          {
+            "check": "Suspicious certification naming pattern",
+            "status": "warning",
+            "details": "Found pattern suggesting inflated cert names: ['Expert']",
+            "action": "Verify certification names against official programs"
+          },
+          {
+            "check": "Suspicious certification naming pattern",
+            "status": "warning",
+            "details": "Found pattern suggesting inflated cert names: [('AWS', 'Master'), ('Google', 'Senior')]",
+            "action": "Verify certification names against official programs"
+          }
+        ],
+        "passed": false,
+        "critical_failure": true
+      }
+    ],
+    "overall_passed": false,
+    "critical_failures": [
+      "Credential Verification"
+    ]
+  },
+  {
+    "case_id": "adv_04_title_embellishment",
+    "case_name": "Job Title Inflation Detection",
+    "trap_type": "title_embellishment",
+    "severity": "high",
+    "zero_tolerance": false,
+    "test_results": [
+      {
+        "test_name": "Title-Responsibility Consistency",
+        "severity": "high",
+        "zero_tolerance": false,
+        "checks": [
+          {
+            "check": "Title-responsibility mismatch detected",
+            "status": "warning",
+            "details": "Senior title but junior indicators: ['under supervision', 'assisted', 'shadowed', 'attended training', 'learning', 'exposure to', 'fixed bugs']",
+            "action": "FLAG for verification - assess by responsibilities, not title"
+          }
+        ],
+        "passed": false,
+        "critical_failure": false
+      }
+    ],
+    "overall_passed": false,
+    "critical_failures": []
+  },
+  {
+    "case_id": "adv_05_company_fabrication",
+    "case_name": "Fake Company and Unverifiable Claims Detection",
+    "trap_type": "company_fabrication",
+    "severity": "critical",
+    "zero_tolerance": true,
+    "test_results": [
+      {
+        "test_name": "Company Verification",
+        "severity": "critical",
+        "zero_tolerance": true,
+        "checks": [
+          {
+            "check": "Unverifiable companies detected",
+            "status": "critical",
+            "details": "Found 3 companies that cannot be verified",
+            "companies": [
+              "TechGlobal Solutions",
+              "CloudInnovate Systems",
+              "AI Dynamics Corporation"
+            ],
+            "action": "MUST flag for background check - possible fabricated history"
+          },
+          {
+            "check": "Generic company names detected",
+            "status": "warning",
+            "details": "Found generic naming patterns: ['Solutions', 'Solutions']",
+            "action": "Verify company existence online (website, LinkedIn, Crunchbase)"
+          },
+          {
+            "check": "Generic company names detected",
+            "status": "warning",
+            "details": "Found generic naming patterns: ['Systems']",
+            "action": "Verify company existence online (website, LinkedIn, Crunchbase)"
+          },
+          {
+            "check": "Generic company names detected",
+            "status": "warning",
+            "details": "Found generic naming patterns: [('AI', 'Corp')]",
+            "action": "Verify company existence online (website, LinkedIn, Crunchbase)"
+          }
+        ],
+        "passed": false,
+        "critical_failure": true
+      }
+    ],
+    "overall_passed": false,
+    "critical_failures": [
+      "Company Verification"
+    ]
+  }
+]

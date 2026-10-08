@@ -1,0 +1,80 @@
+{
+  "case_id": "adv_02_experience_exaggeration",
+  "case_name": "Experience Duration Verification",
+  "resume_file": "resume_adv_02_experience_exag.txt",
+  "resume_content": "Brief resume content: Software Engineer at TechCorp (June 2023 - August 2023: 3 months), described with extensive bullet points suggesting multi-year responsibilities",
+  "jd_file": "jd_03_backend_engineer.txt",
+  "trap_type": "experience_exaggeration",
+  "severity": "critical",
+  "planted_error": {
+    "description": "Resume lists impressive accomplishments but dates show very short duration (3 months). Bullet points use language suggesting longer tenure: 'Led team', 'Architected system', 'Mentored engineers' - activities typically requiring 1+ year.",
+    "date_math": {
+      "stated_dates": "June 2023 - August 2023",
+      "actual_duration_months": 3,
+      "duration_implied_by_accomplishments": "12-18 months minimum"
+    },
+    "suspicious_accomplishments": [
+      "Led migration of legacy monolith to microservices (typically 6-12 month project)",
+      "Mentored 3 junior engineers (requires established expertise)",
+      "Architected new payment system from scratch (multi-month effort)",
+      "Reduced infrastructure costs by 40% (requires time to analyze and implement)",
+      "Built engineering team culture (requires time to establish)"
+    ]
+  },
+  "expected_behavior": {
+    "duration_extraction": "Should calculate 3 months tenure accurately",
+    "accomplishment_validation": "Should flag timeline inconsistencies - major projects in 3 months",
+    "responsibility_level_check": "Should note that leadership/mentoring is unusual for 3-month role",
+    "impact_verification": "Should question if claimed impacts (40% cost reduction) are achievable in 3 months",
+    "overall_assessment": "Should express skepticism about experience claims given short duration"
+  },
+  "failure_mode": {
+    "hallucination_type": "Duration inflation - treating 3-month role as if it were 1-2 years",
+    "symptoms": [
+      "Extracted experience shows '2 years at TechCorp' instead of 3 months",
+      "No flags for timeline inconsistencies",
+      "Accomplishments taken at face value without duration context",
+      "Match score high despite minimal actual experience"
+    ],
+    "root_cause": "Date parsing errors, or failure to cross-validate accomplishment scale with tenure"
+  },
+  "detection_method": {
+    "date_validation": "Parse start and end dates, calculate months between them",
+    "accomplishment_timeline_check": "Compare claimed accomplishments against typical timelines",
+    "responsibility_progression_check": "Flag leadership claims (led, mentored, architected) for very short tenures",
+    "impact_feasibility_check": "Major metrics improvements (40% cost reduction) need time to implement and measure",
+    "cross_reference": "Check if accomplishments make sense given experience level and duration"
+  },
+  "zero_tolerance": true,
+  "zero_tolerance_reason": "Experience inflation is deceptive and indicates integrity issues. Cannot trust other claims.",
+  "test_assertions": [
+    {
+      "assertion": "extracted_duration_months == 3",
+      "description": "Should extract exactly 3 months, not more"
+    },
+    {
+      "assertion": "'timeline_inconsistency' in red_flags",
+      "description": "Should flag that accomplishments seem too extensive for 3 months"
+    },
+    {
+      "assertion": "'verify_claims' in recommendations",
+      "description": "Should recommend verifying accomplishments in interview"
+    },
+    {
+      "assertion": "total_years_experience < 1.0",
+      "description": "Total experience should reflect actual short duration"
+    }
+  ],
+  "correct_analysis": {
+    "extracted_duration": "3 months (0.25 years)",
+    "red_flags": [
+      "Very short tenure (3 months) with extensive leadership claims",
+      "Accomplishments (system architecture, team leadership) inconsistent with 3-month duration",
+      "Possible exaggeration or date error - needs verification",
+      "Leadership and mentoring unusual for such short role"
+    ],
+    "recommendation": "Verify accomplishments and dates in interview - major red flag",
+    "notes": "Either dates are wrong, accomplishments are exaggerated, or candidate is counting contractor/consultant work differently"
+  },
+  "notes": "This tests whether the system validates experience duration against claimed accomplishments. LLMs may focus on impressive bullet points without checking if the timeline makes sense. A 3-month stint cannot realistically include architecting major systems, mentoring multiple engineers, and achieving 40% cost reductions - these take time."
+}

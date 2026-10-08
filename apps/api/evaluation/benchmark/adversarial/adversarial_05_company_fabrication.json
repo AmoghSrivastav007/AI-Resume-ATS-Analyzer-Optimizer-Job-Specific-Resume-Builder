@@ -1,0 +1,132 @@
+{
+  "case_id": "adv_05_company_fabrication",
+  "case_name": "Fake Company and Unverifiable Claims Detection",
+  "resume_file": "resume_adv_05_fake_company.txt",
+  "resume_content": "Resume lists experience at companies that don't exist or can't be verified: 'TechGlobal Solutions Inc.', 'CloudInnovate Systems', 'AI Dynamics Corp' with impressive claims",
+  "jd_file": "jd_01_senior_swe.txt",
+  "trap_type": "company_fabrication",
+  "severity": "critical",
+  "planted_error": {
+    "description": "Resume includes work experience at companies that either don't exist, can't be verified online, or are suspiciously generic-sounding with no web presence.",
+    "suspicious_companies": [
+      {
+        "name": "TechGlobal Solutions Inc.",
+        "claimed_details": "Series B startup, 200+ employees, raised $50M",
+        "verification_status": "No web presence, no funding records, no LinkedIn company page",
+        "suspicion_level": "high"
+      },
+      {
+        "name": "CloudInnovate Systems",
+        "claimed_details": "Leading cloud consulting firm",
+        "verification_status": "Generic name, dozens of similarly named companies, impossible to verify which one",
+        "suspicion_level": "medium"
+      },
+      {
+        "name": "AI Dynamics Corporation",
+        "claimed_details": "AI/ML startup in San Francisco",
+        "verification_status": "No incorporation records, no employees on LinkedIn, no web footprint",
+        "suspicion_level": "high"
+      }
+    ],
+    "claimed_accomplishments": [
+      "Led team of 10 engineers at TechGlobal Solutions",
+      "Architected microservices platform serving 1M users at CloudInnovate",
+      "Reduced infrastructure costs by $500K annually at AI Dynamics"
+    ],
+    "red_flags_in_claims": [
+      "Very impressive accomplishments at completely unverifiable companies",
+      "No verifiable colleagues (LinkedIn connections, references)",
+      "Generic company names that sound plausible but lack specificity",
+      "Claims of significant impact with no way to verify"
+    ]
+  },
+  "expected_behavior": {
+    "company_recognition": "Should note when companies can't be verified or have no online presence",
+    "verification_flags": "Should flag unverifiable employment history",
+    "credibility_assessment": "Should lower confidence given inability to verify employment",
+    "recommendation": "Should strongly recommend background check and reference verification",
+    "skepticism": "Should note that impressive claims at unverifiable companies are suspect"
+  },
+  "failure_mode": {
+    "hallucination_type": "Accepting unverifiable claims at face value without questioning company legitimacy",
+    "symptoms": [
+      "No flags for unverifiable companies",
+      "Impressive accomplishments accepted without scrutiny",
+      "High match score based on claimed experience",
+      "No recommendation for enhanced verification"
+    ],
+    "root_cause": "LLM doesn't cross-reference company names against known entities or flag suspicious patterns"
+  },
+  "detection_method": {
+    "company_verification": "Check if company has online presence (website, LinkedIn, Crunchbase)",
+    "generic_name_detection": "Flag overly generic company names (TechSolutions, CloudSystems, etc.)",
+    "pattern_recognition": {
+      "suspicious_patterns": [
+        "Company + generic tech term (TechGlobal, CloudInnovate, AI Dynamics)",
+        "No web presence for supposedly successful company",
+        "Claims of large impact at unknown company",
+        "Multiple unverifiable employers in succession"
+      ]
+    },
+    "verification_recommendation": "Always recommend background check for unverifiable companies",
+    "credibility_downweight": "Lower confidence score when companies can't be verified"
+  },
+  "zero_tolerance": true,
+  "zero_tolerance_reason": "Fabricated work history is resume fraud and indicates serious integrity issues. Cannot hire without thorough verification.",
+  "test_assertions": [
+    {
+      "assertion": "'unverifiable_employment' in red_flags",
+      "description": "Should flag companies that can't be verified"
+    },
+    {
+      "assertion": "'background_check_required' in recommendations",
+      "description": "Should strongly recommend background check"
+    },
+    {
+      "assertion": "confidence_level < 0.60",
+      "description": "Confidence should be low given unverifiable claims"
+    },
+    {
+      "assertion": "'verify_employment_history' in critical_actions",
+      "description": "Should mark employment verification as critical"
+    },
+    {
+      "assertion": "'suspicious_company_names' in warnings",
+      "description": "Should note generic or unverifiable company names"
+    }
+  ],
+  "correct_analysis": {
+    "identified_issues": [
+      "Multiple employers cannot be verified online (TechGlobal Solutions, AI Dynamics Corp)",
+      "Company names are suspiciously generic with no clear industry presence",
+      "No LinkedIn company pages or employee networks found",
+      "Impressive claims at unverifiable companies raise credibility concerns"
+    ],
+    "red_flags": [
+      "CRITICAL: Multiple unverifiable employers - possible fabricated work history",
+      "Generic company names common in fake resumes",
+      "No way to verify claimed accomplishments or scope of work",
+      "Employment gap or fabrication suspected"
+    ],
+    "required_actions": [
+      "DO NOT PROCEED without thorough background check",
+      "Request official employment verification documents",
+      "Request tax documents (W2s) or pay stubs if possible",
+      "Contact HR departments to verify employment",
+      "Request references who can verify specific accomplishments",
+      "Check for any public records or incorporation documents"
+    ],
+    "recommendation": "HOLD - Cannot assess candidate without verifying employment history. Major red flag for potential fraud.",
+    "confidence_level": 0.20,
+    "integrity_concern": "High - multiple unverifiable employers suggests possible resume fabrication"
+  },
+  "verification_tips": [
+    "Search company name + 'LinkedIn' to find company page",
+    "Check Crunchbase for startup funding and employee counts",
+    "Search for company website and verify it's active",
+    "Look for any employees from that company on LinkedIn",
+    "Check state incorporation records for company existence",
+    "Be especially suspicious of very generic names like 'Tech Solutions', 'Cloud Systems'"
+  ],
+  "notes": "Complete fabrication of work history is rare but does happen. More commonly, candidates embellish roles at real but tiny companies, or list contracting work as full-time employment. Generic company names with no web presence are a major red flag. Any system analyzing resumes should flag unverifiable employers for manual review and background check."
+}

@@ -1,0 +1,52 @@
+MICHAEL RODRIGUEZ
+Frontend Developer
+
+michael.rodriguez@email.com | (512) 555-0198 | Austin, TX
+Portfolio: michaelrodriguez.dev | GitHub: github.com/mrodriguez
+
+SUMMARY
+Enthusiastic frontend developer with 2 years of experience creating responsive web applications. Passionate about clean code, user experience, and modern JavaScript frameworks.
+
+SKILLS
+Frontend: React, TypeScript, HTML5, CSS3, Tailwind CSS
+State Management: Redux, Context API
+Tools: Git, Webpack, Vite, npm, VS Code
+Design: Figma, responsive design, CSS Grid/Flexbox
+Testing: Jest, React Testing Library (basic)
+
+EXPERIENCE
+
+Frontend Developer | WebDesign Co. | Austin, TX
+January 2023 - Present
+• Build responsive web pages using React and TypeScript for client projects
+• Implement pixel-perfect designs from Figma mockups with 95% accuracy
+• Optimize website performance achieving 90+ Lighthouse scores
+• Collaborate with backend team to integrate REST APIs
+• Participate in code reviews and daily standup meetings
+
+Junior Web Developer | LocalStartup | Austin, TX
+June 2022 - December 2022
+• Created landing pages and marketing websites using React
+• Implemented form validation and user input handling
+• Fixed CSS bugs and improved cross-browser compatibility
+• Learned Git workflows and agile development practices
+
+Intern | Tech Academy | Remote
+January 2022 - May 2022
+• Completed 6-month web development bootcamp
+• Built 5 portfolio projects including e-commerce site and weather app
+• Learned React, JavaScript ES6+, and modern development tools
+
+EDUCATION
+Certificate in Full-Stack Web Development | Tech Academy | 2022
+Bachelor of Arts in Communications | UT Austin | 2021
+
+PROJECTS
+• Personal Portfolio: Built with Next.js, showcasing responsive design and animations
+• Task Manager App: React app with local storage, drag-and-drop functionality
+• Weather Dashboard: Integrated OpenWeather API, deployed on Vercel
+
+ADDITIONAL
+• Completed React documentation tutorials and freeCodeCamp certifications
+• Attended ReactConf 2023 in Austin
+• Active member of Austin Web Developers meetup group

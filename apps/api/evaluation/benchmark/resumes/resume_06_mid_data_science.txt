@@ -1,0 +1,71 @@
+KEVIN PATEL
+Data Scientist
+
+kevin.patel@email.com | (312) 555-0189 | Chicago, IL
+LinkedIn: linkedin.com/in/kevinpatel | GitHub: github.com/kpatel-ds
+
+PROFESSIONAL SUMMARY
+Data scientist with 4 years of experience extracting insights from complex datasets and building predictive models. Strong background in statistical analysis, machine learning, and data visualization. Passionate about turning data into actionable business recommendations.
+
+TECHNICAL SKILLS
+Languages: Python, SQL, R
+Data Science: scikit-learn, Pandas, NumPy, SciPy, statsmodels
+Visualization: Matplotlib, Seaborn, Plotly, Tableau, Looker
+Machine Learning: Regression, Classification, Clustering, Time Series, Ensemble Methods
+Tools: Jupyter, Git, Docker, Airflow (basic)
+Databases: PostgreSQL, MySQL, BigQuery
+Cloud: AWS (S3, EC2), GCP (basic)
+
+WORK EXPERIENCE
+
+Data Scientist | Analytics Labs | Chicago, IL
+May 2021 - Present
+• Built predictive models for customer churn reducing attrition by 15% ($2M annual savings)
+• Developed time series forecasting models for demand prediction with 92% accuracy
+• Analyzed A/B test results and provided statistical recommendations for product features
+• Created automated reporting dashboards in Tableau serving 30+ stakeholders
+• Collaborated with engineering team to deploy ML models to production using Flask APIs
+• Mentored junior analyst on statistical methods and data visualization
+
+Data Analyst | RetailCorp | Chicago, IL
+June 2020 - April 2021
+• Performed exploratory data analysis on customer behavior datasets (5M+ records)
+• Built SQL queries for data extraction and reporting
+• Created executive dashboards tracking KPIs and business metrics
+• Conducted cohort analysis identifying high-value customer segments
+• Presented findings to senior leadership and recommended strategic actions
+• Automated monthly reporting reducing manual work by 20 hours per month
+
+Junior Data Analyst | MarketingFirm | Evanston, IL
+July 2019 - May 2020
+• Cleaned and preprocessed data for analysis using Python and Pandas
+• Performed statistical analysis and hypothesis testing
+• Created data visualizations for client presentations
+• Assisted with survey design and analysis
+• Learned SQL and database querying fundamentals
+
+EDUCATION
+Master of Science in Data Science | Northwestern University | 2019
+GPA: 3.8/4.0
+Relevant Coursework: Machine Learning, Statistical Inference, Data Mining, Big Data Analytics
+
+Bachelor of Science in Statistics | University of Illinois | 2017
+Minor: Computer Science | GPA: 3.6/4.0
+
+PROJECTS
+• Kaggle Competitions: Top 5% in 2 competitions (house prices, customer segmentation)
+• NLP Project: Sentiment analysis of product reviews using BERT (95% accuracy)
+• Time Series: Stock price prediction using LSTM and Prophet models
+
+CERTIFICATIONS
+• Google Data Analytics Professional Certificate
+• DataCamp Data Scientist with Python Track (completed)
+
+PUBLICATIONS & PRESENTATIONS
+• Presented "Practical ML for Business" at Chicago Data Science Meetup (2023)
+• Co-authored article on customer analytics published in company tech blog
+
+ADDITIONAL INFORMATION
+• Active member of Chicago ML and Data Science meetups
+• Completed online courses: Andrew Ng's ML course, fast.ai, statistical learning
+• Familiar with experimental design and causal inference techniques

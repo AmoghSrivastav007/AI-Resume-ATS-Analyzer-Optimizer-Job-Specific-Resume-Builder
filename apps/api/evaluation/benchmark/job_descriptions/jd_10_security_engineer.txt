@@ -1,0 +1,45 @@
+Security Engineer
+
+Company: SecureStack Technologies
+Location: Washington, DC (Hybrid)
+Type: Full-time
+
+About the Role:
+Join our security team to protect our infrastructure and applications. You'll conduct security assessments, implement security controls, and respond to incidents.
+
+Required Skills:
+- 4+ years of information security experience
+- Strong knowledge of security frameworks (OWASP, NIST, CIS)
+- Experience with security tools (SIEM, IDS/IPS, vulnerability scanners)
+- Understanding of network security and firewall configuration
+- Knowledge of encryption, PKI, and authentication protocols
+- Experience with penetration testing and vulnerability assessment
+- Familiarity with cloud security (AWS, GCP, Azure)
+- Scripting skills (Python, Bash, PowerShell)
+- Understanding of compliance requirements (SOC2, HIPAA, GDPR)
+- Strong incident response and forensics skills
+
+Preferred Skills:
+- Security certifications (CISSP, CEH, OSCP, SANS)
+- Experience with container security (Docker, Kubernetes)
+- Knowledge of application security and secure coding practices
+- Familiarity with threat intelligence platforms
+- Experience with security automation and orchestration (SOAR)
+- Understanding of zero trust architecture
+- Experience conducting security training
+
+Responsibilities:
+- Conduct security assessments and penetration testing
+- Implement and maintain security controls
+- Monitor security alerts and respond to incidents
+- Perform vulnerability management and remediation
+- Develop security policies and procedures
+- Conduct security awareness training
+- Stay current with security threats and trends
+- Participate in on-call rotation for security incidents
+
+Education:
+Bachelor's degree in Computer Science, Information Security, or related field
+
+Benefits:
+Competitive salary, stock options, comprehensive benefits, security certification reimbursement, clearance support

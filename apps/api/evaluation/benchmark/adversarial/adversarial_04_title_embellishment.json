@@ -1,0 +1,116 @@
+{
+  "case_id": "adv_04_title_embellishment",
+  "case_name": "Job Title Inflation Detection",
+  "resume_file": "resume_adv_04_title_inflate.txt",
+  "resume_content": "Resume lists 'Senior Software Architect' but responsibilities clearly indicate junior developer role (bug fixes, basic features, worked under close supervision)",
+  "jd_file": "jd_01_senior_swe.txt",
+  "trap_type": "title_embellishment",
+  "severity": "high",
+  "planted_error": {
+    "description": "Job title says 'Senior Software Architect' but actual responsibilities and scope indicate junior-level individual contributor role. Title-responsibility mismatch.",
+    "stated_title": "Senior Software Architect",
+    "actual_responsibilities": [
+      "Fixed bugs in existing codebase under supervision",
+      "Implemented small features following detailed specifications",
+      "Attended architecture meetings (observer role)",
+      "Wrote unit tests for components",
+      "Assisted with code reviews",
+      "Shadowed senior engineers on design discussions",
+      "Completed onboarding training on system architecture"
+    ],
+    "missing_senior_architect_responsibilities": [
+      "No system design or architecture decisions",
+      "No technical leadership or mentoring",
+      "No cross-team collaboration or influence",
+      "No strategic technology direction",
+      "No design documentation or RFCs authored",
+      "All work closely supervised"
+    ],
+    "title_level_mismatch": {
+      "title_suggests": "Senior level (8-12 years), architectural responsibility, technical leadership",
+      "responsibilities_suggest": "Junior level (0-2 years), feature implementation, learning phase"
+    }
+  },
+  "expected_behavior": {
+    "title_extraction": "Should extract 'Senior Software Architect' title",
+    "responsibility_analysis": "Should recognize responsibilities indicate junior level",
+    "mismatch_detection": "Should flag discrepancy between title and actual work",
+    "seniority_assessment": "Should assess true experience level based on responsibilities, not title",
+    "skepticism": "Should note potential title inflation at small company or startup"
+  },
+  "failure_mode": {
+    "hallucination_type": "Title-based assessment without validating against responsibilities",
+    "symptoms": [
+      "Assessed as 'Senior' level based solely on title",
+      "No flag for title-responsibility mismatch",
+      "Match score high because title matches 'Senior SWE' requirement",
+      "Responsibilities indicating junior level ignored in favor of impressive title"
+    ],
+    "root_cause": "Over-weighting job title without analyzing actual work performed"
+  },
+  "detection_method": {
+    "responsibility_analysis": "Parse and analyze actual bullet points to determine real seniority level",
+    "keyword_detection": {
+      "junior_indicators": [
+        "under supervision",
+        "assisted with",
+        "shadowed",
+        "training",
+        "learning",
+        "following specifications",
+        "attended meetings (passive)"
+      ],
+      "senior_indicators": [
+        "led",
+        "architected",
+        "designed",
+        "mentored",
+        "technical leadership",
+        "cross-team collaboration",
+        "strategic decisions"
+      ]
+    },
+    "title_responsibility_validation": "Flag when title seniority doesn't match responsibility scope",
+    "impact_assessment": "Senior roles should show broader impact; junior roles show task completion"
+  },
+  "zero_tolerance": false,
+  "zero_tolerance_reason": "Title inflation is common at startups (inflated titles, small teams). Not always candidate's fault but must be verified.",
+  "test_assertions": [
+    {
+      "assertion": "assessed_seniority_level == 'junior' or 'entry'",
+      "description": "Should assess true seniority based on responsibilities, not title"
+    },
+    {
+      "assertion": "'title_mismatch' in red_flags or 'verify_title_scope' in notes",
+      "description": "Should flag or note title-responsibility discrepancy"
+    },
+    {
+      "assertion": "match_score_for_senior_role < 0.50",
+      "description": "Should not strongly match senior role given junior responsibilities"
+    },
+    {
+      "assertion": "'actual_responsibilities_indicate_junior_level' in analysis",
+      "description": "Analysis should explicitly note junior-level work despite senior title"
+    }
+  ],
+  "correct_analysis": {
+    "stated_title": "Senior Software Architect",
+    "assessed_level": "Junior Developer (0-2 years equivalent)",
+    "discrepancy": "Title suggests senior level but responsibilities clearly indicate junior IC role",
+    "red_flags": [
+      "Significant mismatch between job title and actual responsibilities",
+      "Title may be inflated (common at startups) or candidate may have embellished",
+      "No architectural or leadership responsibilities despite 'Architect' title",
+      "Work described is typical entry-level: bug fixes, small features, shadowing"
+    ],
+    "verification_needed": [
+      "Ask about team size and reporting structure",
+      "Clarify if 'Architect' title was formal or aspirational",
+      "Request examples of architectural decisions made",
+      "Verify if this was a startup with inflated titles"
+    ],
+    "recommendation": "Consider as junior candidate, not senior - title appears inflated",
+    "notes": "Many startups give inflated titles. A one-person team might have 'CTO', a junior dev might be 'Senior Architect'. Always validate title against actual scope of work."
+  },
+  "notes": "Title inflation is extremely common, especially at startups. A 'Senior Engineer' at a 5-person startup may be doing junior work. A 'Principal Architect' at a small company may have less responsibility than a 'Software Engineer II' at a big tech company. The system must analyze actual responsibilities and impact, not just trust the title."
+}

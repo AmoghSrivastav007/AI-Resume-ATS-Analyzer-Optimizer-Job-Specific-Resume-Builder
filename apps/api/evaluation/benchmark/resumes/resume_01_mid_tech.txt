@@ -1,0 +1,53 @@
+SARAH CHEN
+Senior Software Engineer
+
+Email: sarah.chen@email.com | Phone: (415) 555-0123
+Location: San Francisco, CA | LinkedIn: linkedin.com/in/sarahchen | GitHub: github.com/sarahchen
+
+PROFESSIONAL SUMMARY
+Results-driven software engineer with 6 years of experience building scalable backend systems. Expert in Python, FastAPI, and cloud infrastructure. Proven track record of improving system performance and mentoring junior developers.
+
+TECHNICAL SKILLS
+Languages: Python, JavaScript, SQL, Go
+Frameworks: FastAPI, Django, Flask, React
+Databases: PostgreSQL, Redis, MongoDB
+Cloud & DevOps: AWS (EC2, S3, Lambda, RDS), Docker, Kubernetes, Terraform
+Tools: Git, GitHub Actions, Datadog, Sentry
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Engineer | TechCorp Inc. | San Francisco, CA
+March 2022 - Present
+• Architected and implemented microservices handling 2M+ daily requests using FastAPI and PostgreSQL
+• Reduced API response time by 40% through database query optimization and caching strategies
+• Mentored 3 junior engineers on best practices for code review, testing, and system design
+• Built CI/CD pipelines using GitHub Actions, reducing deployment time from 2 hours to 15 minutes
+• Implemented OAuth2 authentication system securing 500K+ user accounts
+
+Software Engineer | CloudScale Systems | San Francisco, CA
+June 2019 - February 2022
+• Developed RESTful APIs serving 10K+ requests per second with 99.9% uptime
+• Designed and implemented async task processing system using Celery and Redis
+• Collaborated with frontend team to integrate GraphQL endpoints
+• Wrote comprehensive unit and integration tests achieving 85% code coverage
+• Participated in on-call rotation, resolving production incidents with <30min response time
+
+Junior Software Engineer | StartupVentures | Palo Alto, CA
+August 2018 - May 2019
+• Built backend features for SaaS platform using Django and PostgreSQL
+• Implemented email notification system processing 50K+ emails daily
+• Fixed critical bugs and improved application stability
+• Contributed to technical documentation and API specifications
+
+EDUCATION
+Bachelor of Science in Computer Science | UC Berkeley | 2018
+GPA: 3.7/4.0
+
+PROJECTS & ACHIEVEMENTS
+• Open Source Contributor: Contributed 15+ pull requests to FastAPI and SQLAlchemy projects
+• Tech Blog: Published 12 articles on Python best practices, reaching 50K+ readers
+• Hackathon Winner: 1st place at SF TechCrunch Disrupt 2021 for ML-powered recommendation engine
+
+CERTIFICATIONS
+• AWS Certified Solutions Architect - Associate (2023)
+• Professional Scrum Master I (PSM I) (2022)

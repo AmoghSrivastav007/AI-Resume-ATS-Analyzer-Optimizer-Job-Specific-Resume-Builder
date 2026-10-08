@@ -1,0 +1,74 @@
+{
+  "resume_id": "resume_08_mid_security",
+  "resume_file": "resume_08_mid_security.txt",
+  "jd_id": "jd_10_security_engineer",
+  "jd_file": "jd_10_security_engineer.txt",
+  "expected_match_score": 0.87,
+  "score_range": [0.83, 0.91],
+  "match_category": "strong_match",
+  "match_rationale": "Jessica Thompson is a strong match with 5 years of security experience meeting the 4+ requirement. Solid penetration testing, AWS security, and compliance expertise. Multiple relevant certifications including CISSP. Good mix of offensive and defensive security skills.",
+  "key_matched_skills": [
+    "5 years security experience",
+    "Penetration testing",
+    "Vulnerability assessment",
+    "Security frameworks (OWASP, NIST, CIS)",
+    "SIEM tools (Splunk)",
+    "IDS/IPS knowledge",
+    "Cloud security (AWS)",
+    "Python, Bash, PowerShell scripting",
+    "Compliance (SOC2, HIPAA, GDPR)",
+    "Incident response",
+    "CISSP certified",
+    "CEH certified",
+    "AWS Security Specialty",
+    "Container security awareness"
+  ],
+  "missing_critical_skills": [],
+  "partially_matched_skills": {
+    "GCP/Azure security": "AWS expert but limited multi-cloud",
+    "SOAR": "Not explicitly mentioned",
+    "Zero trust architecture": "Understanding mentioned but limited implementation"
+  },
+  "ats_score_expectations": {
+    "keyword_density": [0.82, 0.92],
+    "section_completeness": 1.0,
+    "format_quality": [0.85, 0.93],
+    "experience_match": [0.85, 0.93]
+  },
+  "hallucination_check": {
+    "fabricated_skills": [],
+    "exaggerated_experience": false,
+    "invented_companies": false,
+    "skill_level_inflation": false,
+    "date_inconsistencies": false
+  },
+  "detailed_skill_comparison": {
+    "required_skills_coverage": 0.90,
+    "preferred_skills_coverage": 0.70,
+    "experience_level_match": "meets_requirement",
+    "education_match": true
+  },
+  "red_flags": [],
+  "strengths": [
+    "Meets 4+ years requirement with 5 years",
+    "Multiple top certifications (CISSP, CEH, AWS Security, GSEC)",
+    "Strong penetration testing and vulnerability assessment skills",
+    "AWS security expertise aligns with cloud-first companies",
+    "Compliance experience (SOC2, HIPAA)",
+    "Incident response experience",
+    "Security automation and scripting",
+    "Active in security community (OWASP, conferences)",
+    "Responsible disclosure track record",
+    "Relevant cybersecurity degree"
+  ],
+  "weaknesses": [
+    "AWS-focused, limited GCP/Azure experience",
+    "No explicit SOAR platform experience",
+    "Could have more application security depth",
+    "Limited zero trust implementation experience",
+    "No OSCP certification (more offensive focused)"
+  ],
+  "recommendation": "Strong hire - excellent security fundamentals and certifications",
+  "confidence_level": 0.90,
+  "notes": "Jessica is a well-rounded security engineer with good balance of offensive (pentesting, CEH) and defensive (SIEM, incident response) skills. CISSP demonstrates broad knowledge. AWS security focus is valuable for cloud-native companies. Compliance experience is a plus. Only gaps are in multi-cloud and some advanced preferred skills. Active community participation and continuous learning evident from conference attendance and certifications."
+}

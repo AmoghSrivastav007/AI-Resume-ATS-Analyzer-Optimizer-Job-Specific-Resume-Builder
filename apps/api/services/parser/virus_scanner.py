@@ -17,10 +17,18 @@ class VirusScanner(Protocol):
 
 
 class NoOpVirusScanner:
-    """TODO: Replace with ClamAV/HTTP scanner when VIRUS_SCAN_URL is configured."""
+    """
+    No-op scanner for development only.
+    WARNING: This should NEVER be used in production!
+    """
 
     def scan(self, content: bytes, filename: str) -> VirusScanResult:
-        return VirusScanResult(clean=True, detail="Virus scan skipped (no scanner configured)")
+        import logging
+        logging.warning(
+            "SECURITY WARNING: Virus scanning is disabled. "
+            "Set VIRUS_SCAN_URL in production to enable ClamAV scanning."
+        )
+        return VirusScanResult(clean=True, detail="Virus scan skipped (no scanner configured - DEVELOPMENT ONLY)")
 
 
 class HttpVirusScanner:

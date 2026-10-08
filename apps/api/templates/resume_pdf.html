@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        @page {
+            size: Letter;
+            margin: 0.75in;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 11pt;
+            line-height: 1.4;
+            color: #000;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            text-align: center;
+            margin-bottom: 1em;
+            border-bottom: 2px solid #000;
+            padding-bottom: 0.5em;
+        }
+
+        .contact-section .name {
+            font-size: 18pt;
+            font-weight: bold;
+            margin-bottom: 0.3em;
+        }
+
+        .contact-section .contact-info {
+            font-size: 10pt;
+            color: #333;
+        }
+
+        /* Section Headers */
+        .section {
+            margin-bottom: 1.2em;
+            page-break-inside: avoid;
+        }
+
+        .section-header {
+            font-size: 13pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            margin-bottom: 0.5em;
+            padding-bottom: 0.2em;
+        }
+
+        /* Summary */
+        .summary-text {
+            margin-bottom: 0.8em;
+            text-align: justify;
+        }
+
+        /* Experience/Education Entries */
+        .entry {
+            margin-bottom: 0.8em;
+            page-break-inside: avoid;
+        }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.2em;
+        }
+
+        .entry-title {
+            font-weight: bold;
+        }
+
+        .entry-org {
+            font-style: italic;
+        }
+
+        .entry-date {
+            font-style: italic;
+            color: #555;
+        }
+
+        /* Bullets */
+        .bullets {
+            margin-left: 1.5em;
+            margin-top: 0.3em;
+        }
+
+        .bullet-item {
+            margin-bottom: 0.2em;
+            list-style-type: disc;
+        }
+
+        /* Skills */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5em;
+        }
+
+        .skill-item {
+            background: #f0f0f0;
+            padding: 0.2em 0.6em;
+            border-radius: 3px;
+            font-size: 10pt;
+        }
+
+        /* Generic blocks */
+        .block-paragraph {
+            margin-bottom: 0.5em;
+            text-align: justify;
+        }
+
+        .block-bullet {
+            margin-left: 1.5em;
+            margin-bottom: 0.2em;
+            list-style-type: disc;
+        }
+
+        .block-heading {
+            font-weight: bold;
+            margin-top: 0.5em;
+            margin-bottom: 0.3em;
+        }
+    </style>
+</head>
+<body>
+    {% if contact_section %}
+    <div class="contact-section">
+        <div class="name">{{ contact_section.name }}</div>
+        <div class="contact-info">
+            {% if contact_section.email %}{{ contact_section.email }}{% endif %}
+            {% if contact_section.phone %} • {{ contact_section.phone }}{% endif %}
+            {% if contact_section.location %} • {{ contact_section.location }}{% endif %}
+            {% if contact_section.linkedin %} • {{ contact_section.linkedin }}{% endif %}
+        </div>
+    </div>
+    {% endif %}
+
+    {% for section in sections %}
+    <div class="section">
+        <h2 class="section-header">{{ section.title }}</h2>
+        
+        {% if section.section_type == 'summary' %}
+            {% for block in section.blocks %}
+            <p class="summary-text">{{ block.text }}</p>
+            {% endfor %}
+        
+        {% elif section.section_type in ['experience', 'education', 'projects'] %}
+            {% for block in section.blocks %}
+                {% if block.block_type == 'heading' or block.is_entry_header %}
+                <div class="entry">
+                    <div class="entry-header">
+                        <div>
+                            <span class="entry-title">{{ block.title or block.text }}</span>
+                            {% if block.organization %}
+                            <span class="entry-org"> - {{ block.organization }}</span>
+                            {% endif %}
+                        </div>
+                        {% if block.date_range %}
+                        <span class="entry-date">{{ block.date_range }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+                {% elif block.block_type == 'bullet' %}
+                <ul class="bullets">
+                    <li class="bullet-item">{{ block.text }}</li>
+                </ul>
+                {% else %}
+                <p class="block-paragraph">{{ block.text }}</p>
+                {% endif %}
+            {% endfor %}
+        
+        {% elif section.section_type == 'skills' %}
+            <div class="skills-list">
+                {% for block in section.blocks %}
+                <span class="skill-item">{{ block.text }}</span>
+                {% endfor %}
+            </div>
+        
+        {% else %}
+            {% for block in section.blocks %}
+                {% if block.block_type == 'bullet' %}
+                <ul class="bullets">
+                    <li class="bullet-item">{{ block.text }}</li>
+                </ul>
+                {% elif block.block_type == 'heading' %}
+                <h3 class="block-heading">{{ block.text }}</h3>
+                {% else %}
+                <p class="block-paragraph">{{ block.text }}</p>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    </div>
+    {% endfor %}
+</body>
+</html>

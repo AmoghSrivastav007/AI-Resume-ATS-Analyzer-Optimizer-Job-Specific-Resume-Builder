@@ -1,0 +1,69 @@
+RACHEL MARTINEZ
+Senior Software Architect
+
+Email: rachel.martinez@email.com | Phone: (512) 555-0277
+Location: Austin, TX | LinkedIn: linkedin.com/in/rachelmartinez
+
+PROFESSIONAL SUMMARY
+Senior Software Architect with experience in full-stack development and system design. Strong technical skills and collaborative team player.
+
+TECHNICAL SKILLS
+Languages: Python, JavaScript, Java (basic)
+Web: React, Node.js, HTML/CSS
+Databases: PostgreSQL, MongoDB
+Tools: Git, Docker, VS Code, Jira
+Cloud: AWS (basic), familiar with EC2 and S3
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Architect | NexGen Startup | Austin, TX
+September 2021 - Present
+
+• Fixed bugs in existing codebase under supervision of lead architect
+• Implemented small features following detailed technical specifications
+• Wrote unit tests for new components using pytest framework
+• Attended weekly architecture review meetings and design discussions
+• Assisted senior engineers with code reviews and testing
+• Shadowed principal architect on major system design decisions
+• Completed internal training program on microservices architecture
+• Participated in sprint planning and daily standup meetings
+• Documented code changes and updated technical documentation
+• Learned about distributed systems through team knowledge sharing sessions
+• Contributed to team retrospectives and process improvement discussions
+
+Junior Developer | WebDev Solutions | Austin, TX
+May 2020 - August 2021
+
+• Developed frontend features using React and JavaScript
+• Made minor bug fixes in backend Python code
+• Worked closely with senior developers on implementation
+• Attended training sessions on software design patterns
+• Gained exposure to agile development methodology
+• Learned Git workflows and version control best practices
+
+Intern | TechCo | Austin, TX
+January 2020 - April 2020
+
+• Assisted development team with various tasks
+• Fixed HTML/CSS styling issues on company website
+• Wrote basic SQL queries for data retrieval
+• Participated in team meetings and learned about software development
+
+EDUCATION
+
+Bachelor of Science in Computer Science | University of Texas at Austin | 2019
+GPA: 3.2/4.0
+
+SKILLS & TRAINING
+
+• Completed online courses: JavaScript Fundamentals, React Basics
+• Familiar with REST API concepts through reading and tutorials
+• Basic understanding of cloud computing from AWS introductory course
+• Exposure to system design principles through architecture meetings
+• Learning about design patterns and software architecture
+
+ADDITIONAL
+
+• Attended 2 local tech meetups in Austin
+• Member of online developer communities
+• Continuously learning through online tutorials and documentation

@@ -1,0 +1,43 @@
+Senior Software Engineer
+
+Company: TechCorp Solutions
+Location: San Francisco, CA (Hybrid)
+Type: Full-time
+
+About the Role:
+We are seeking an experienced Senior Software Engineer to join our platform engineering team. You will be responsible for designing and implementing scalable backend systems, mentoring junior engineers, and driving technical decisions.
+
+Required Skills:
+- 5+ years of professional software development experience
+- Strong proficiency in Python or Java
+- Experience with distributed systems and microservices architecture
+- Solid understanding of SQL and NoSQL databases (PostgreSQL, MongoDB, Redis)
+- Experience with cloud platforms (AWS, GCP, or Azure)
+- Strong knowledge of RESTful API design and implementation
+- Experience with Docker and container orchestration
+- Version control with Git
+- Strong problem-solving and debugging skills
+- Excellent communication and collaboration abilities
+
+Preferred Skills:
+- Experience with Kubernetes and infrastructure as code (Terraform)
+- Knowledge of message queues (Kafka, RabbitMQ, SQS)
+- Experience with CI/CD pipelines (GitHub Actions, Jenkins, CircleCI)
+- Familiarity with monitoring and observability tools (Prometheus, Grafana, DataDog)
+- Contributions to open-source projects
+- Experience mentoring junior developers
+
+Responsibilities:
+- Design and implement high-performance backend services
+- Write clean, maintainable, and well-tested code
+- Participate in code reviews and architectural discussions
+- Mentor junior and mid-level engineers
+- Collaborate with product managers and designers
+- Troubleshoot production issues and optimize system performance
+- Document technical designs and system architecture
+
+Education:
+Bachelor's degree in Computer Science, Engineering, or equivalent practical experience
+
+Benefits:
+Competitive salary, equity, health insurance, 401k matching, unlimited PTO, remote work options

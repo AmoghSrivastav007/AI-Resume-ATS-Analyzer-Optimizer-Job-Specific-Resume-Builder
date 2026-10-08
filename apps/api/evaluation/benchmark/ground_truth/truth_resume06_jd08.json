@@ -1,0 +1,72 @@
+{
+  "resume_id": "resume_06_mid_data_science",
+  "resume_file": "resume_06_mid_data_science.txt",
+  "jd_id": "jd_08_data_scientist",
+  "jd_file": "jd_08_data_scientist.txt",
+  "expected_match_score": 0.79,
+  "score_range": [0.74, 0.84],
+  "match_category": "strong_match",
+  "match_rationale": "Kevin Patel is a good match with 4 years of data science experience. Strong Python, statistical analysis, and ML fundamentals. Has production deployment experience and good business impact. Meets most requirements with some gaps in advanced/preferred skills.",
+  "key_matched_skills": [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "scikit-learn",
+    "Statistical methods",
+    "Machine learning algorithms",
+    "Data visualization (Matplotlib, Seaborn, Plotly)",
+    "SQL",
+    "A/B testing",
+    "Supervised/unsupervised learning",
+    "Jupyter notebooks",
+    "Communication to non-technical stakeholders"
+  ],
+  "missing_critical_skills": [],
+  "partially_matched_skills": {
+    "Big data tools (Spark)": "Not mentioned in resume",
+    "Deep learning": "Limited experience mentioned in projects only",
+    "Cloud platforms": "Some AWS/GCP exposure but not extensive",
+    "Time series forecasting": "Mentioned once, unclear depth",
+    "BI tools": "Tableau yes, but Looker/Power BI not confirmed"
+  },
+  "ats_score_expectations": {
+    "keyword_density": [0.72, 0.85],
+    "section_completeness": 0.95,
+    "format_quality": [0.80, 0.90],
+    "experience_match": [0.75, 0.88]
+  },
+  "hallucination_check": {
+    "fabricated_skills": [],
+    "exaggerated_experience": false,
+    "invented_companies": false,
+    "skill_level_inflation": false,
+    "date_inconsistencies": false
+  },
+  "detailed_skill_comparison": {
+    "required_skills_coverage": 0.85,
+    "preferred_skills_coverage": 0.40,
+    "experience_level_match": "meets_requirement",
+    "education_match": true
+  },
+  "red_flags": [],
+  "strengths": [
+    "Meets 3+ years requirement with 4 years experience",
+    "Strong Python and data science fundamentals",
+    "Proven business impact (churn reduction, cost savings)",
+    "Production ML deployment experience",
+    "Good visualization and communication skills",
+    "Relevant Master's degree in Data Science",
+    "A/B testing and experimentation experience",
+    "Kaggle competition success"
+  ],
+  "weaknesses": [
+    "Limited big data tools experience (no Spark/Hadoop)",
+    "Minimal deep learning expertise",
+    "Basic cloud platform knowledge",
+    "Could have more advanced statistical techniques",
+    "Limited causal inference experience"
+  ],
+  "recommendation": "Good hire - solid fundamentals with room to grow in advanced areas",
+  "confidence_level": 0.85,
+  "notes": "Kevin is a solid mid-level data scientist with good practical experience. Strong on fundamentals (statistics, ML, Python, SQL) and has demonstrated business impact. Gaps are primarily in 'preferred' skills like big data tools and deep learning rather than core requirements. Master's degree adds credibility. Would benefit from exposure to larger scale data and deep learning projects."
+}

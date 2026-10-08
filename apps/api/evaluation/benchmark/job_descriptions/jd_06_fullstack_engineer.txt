@@ -1,0 +1,44 @@
+Full-Stack Engineer
+
+Company: StartupVentures
+Location: San Francisco, CA (Remote)
+Type: Full-time
+
+About the Role:
+We're seeking a versatile Full-Stack Engineer to work across our entire technology stack. You'll build features end-to-end, from database to UI, in a fast-paced startup environment.
+
+Required Skills:
+- 3+ years of full-stack development experience
+- Strong proficiency in JavaScript/TypeScript
+- Backend experience with Node.js or Python
+- Frontend experience with React, Vue, or Angular
+- Database knowledge (PostgreSQL, MySQL, or MongoDB)
+- Experience with RESTful API design and implementation
+- Understanding of authentication and session management
+- Familiarity with cloud platforms (AWS, GCP, or Azure)
+- Knowledge of version control and Git workflows
+- Ability to work independently and make technical decisions
+
+Preferred Skills:
+- Experience with Next.js or similar full-stack frameworks
+- Knowledge of GraphQL
+- Familiarity with serverless architectures
+- Experience with real-time features (WebSockets, Server-Sent Events)
+- Understanding of SEO and web performance optimization
+- Experience with automated testing
+- Knowledge of containerization (Docker)
+
+Responsibilities:
+- Build features from concept to production
+- Design and implement both frontend and backend components
+- Optimize application performance and user experience
+- Write clean, maintainable, and well-tested code
+- Collaborate with product and design teams
+- Debug and resolve issues across the stack
+- Contribute to architectural decisions
+
+Education:
+Bachelor's degree in Computer Science or equivalent experience
+
+Benefits:
+Competitive salary, significant equity, health insurance, flexible work environment, learning opportunities

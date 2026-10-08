@@ -1,0 +1,45 @@
+DevOps Engineer
+
+Company: InfraCloud Inc.
+Location: Boston, MA (Hybrid)
+Type: Full-time
+
+About the Role:
+We're looking for a DevOps Engineer to build and maintain our cloud infrastructure and CI/CD pipelines. You'll automate deployments, improve system reliability, and work closely with development teams.
+
+Required Skills:
+- 4+ years of DevOps or infrastructure experience
+- Strong experience with AWS or GCP (EC2, S3, RDS, Lambda, etc.)
+- Expert knowledge of Docker and Kubernetes
+- Experience with infrastructure as code (Terraform or CloudFormation)
+- Proficiency in scripting languages (Python, Bash, or Go)
+- Experience building CI/CD pipelines (GitHub Actions, GitLab CI, or Jenkins)
+- Knowledge of monitoring and logging (Prometheus, Grafana, ELK stack)
+- Understanding of networking concepts (VPC, load balancers, DNS)
+- Experience with configuration management (Ansible, Chef, or Puppet)
+- Strong Linux/Unix system administration skills
+
+Preferred Skills:
+- Experience with service mesh (Istio, Linkerd)
+- Knowledge of security best practices and compliance (SOC2, HIPAA)
+- Familiarity with GitOps workflows (ArgoCD, Flux)
+- Experience with database administration and backups
+- Understanding of cost optimization strategies
+- Knowledge of serverless architectures
+- Experience with incident response and on-call duties
+
+Responsibilities:
+- Design and maintain cloud infrastructure
+- Implement and optimize CI/CD pipelines
+- Automate deployment processes and infrastructure provisioning
+- Monitor system health and performance
+- Troubleshoot production issues and incidents
+- Implement security best practices
+- Document infrastructure and runbooks
+- Participate in on-call rotation
+
+Education:
+Bachelor's degree in Computer Science, Information Technology, or equivalent experience
+
+Benefits:
+Competitive salary, equity, comprehensive benefits, flexible hours, professional certifications support

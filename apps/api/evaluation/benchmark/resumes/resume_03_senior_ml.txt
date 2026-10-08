@@ -1,0 +1,67 @@
+DR. JENNIFER WANG
+Machine Learning Engineer
+
+Email: jennifer.wang@email.com | Phone: (650) 555-0177
+Location: Mountain View, CA | LinkedIn: linkedin.com/in/jenniferwang
+Google Scholar: scholar.google.com/jennifer-wang
+
+PROFESSIONAL SUMMARY
+Ph.D. in Machine Learning with 8 years of experience building and deploying production ML systems. Specialized in NLP, computer vision, and recommendation systems at scale. Published 12 peer-reviewed papers and 3 patents.
+
+TECHNICAL EXPERTISE
+Machine Learning: Deep Learning, NLP, Computer Vision, Reinforcement Learning, Transfer Learning
+Frameworks: PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, OpenCV
+Languages: Python, C++, SQL, R
+MLOps: MLflow, Kubeflow, SageMaker, Docker, Kubernetes
+Cloud: AWS (SageMaker, EC2, S3), GCP (Vertex AI, BigQuery)
+Data: Pandas, NumPy, Spark, Airflow
+
+PROFESSIONAL EXPERIENCE
+
+Senior Machine Learning Engineer | DataDrive AI | Mountain View, CA
+April 2020 - Present
+• Lead ML team of 5 engineers building recommendation system serving 10M+ users
+• Designed and deployed transformer-based NLP model improving search relevance by 35%
+• Built end-to-end ML pipeline with automated retraining reducing model staleness from 2 weeks to 2 days
+• Implemented A/B testing framework measuring model impact on user engagement (+18% CTR)
+• Optimized model inference reducing latency from 200ms to 45ms using model quantization and TensorRT
+• Mentored junior ML engineers and conducted technical interviews
+
+Machine Learning Engineer | AI Research Labs | Palo Alto, CA
+June 2017 - March 2020
+• Developed computer vision models for object detection achieving 92% mAP on custom dataset
+• Built data preprocessing pipelines processing 500GB+ of image data daily using Spark
+• Deployed ML models to production using Docker and Kubernetes
+• Collaborated with research team publishing 4 papers at top-tier ML conferences (NeurIPS, ICML)
+• Implemented MLOps best practices including model versioning, monitoring, and rollback strategies
+
+Research Scientist | University ML Lab | Stanford, CA
+September 2015 - May 2017
+• Conducted PhD research on deep reinforcement learning for robotics
+• Published 6 papers in top conferences and journals
+• Taught graduate-level machine learning course (4.8/5.0 rating)
+• Supervised 3 master's thesis projects
+
+EDUCATION
+Ph.D. in Computer Science (Machine Learning) | Stanford University | 2017
+Dissertation: "Deep Reinforcement Learning for Robotic Manipulation"
+Advisor: Prof. Andrew Ng
+
+M.S. in Computer Science | Stanford University | 2015
+
+B.S. in Computer Science and Mathematics | MIT | 2013
+Magna Cum Laude, GPA: 3.9/4.0
+
+PUBLICATIONS & PATENTS
+• Wang, J. et al. "Efficient Transformers for NLP at Scale" - NeurIPS 2023
+• Wang, J. et al. "Few-Shot Learning for Recommendation Systems" - ICML 2022
+• 3 US Patents on ML model optimization and deployment
+
+AWARDS & HONORS
+• "40 Under 40 in AI" - AI Magazine (2023)
+• Best Paper Award - ICML 2022
+• Google PhD Fellowship (2015-2017)
+
+CERTIFICATIONS
+• AWS Certified Machine Learning - Specialty (2023)
+• TensorFlow Developer Certificate (2021)

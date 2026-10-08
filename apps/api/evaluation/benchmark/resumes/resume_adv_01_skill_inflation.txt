@@ -1,0 +1,50 @@
+ALEX KUMAR
+Software Developer
+
+Email: alex.kumar@email.com | Phone: (408) 555-0144
+Location: San Jose, CA
+
+SUMMARY
+Software developer with 2 years of experience. Familiar with various technologies and eager to learn more in a dynamic team environment.
+
+SKILLS
+Programming: Python, JavaScript, Java (basic understanding)
+Web: HTML, CSS, React (completed online tutorial)
+Cloud: Familiar with AWS concepts, have used EC2 once
+Tools: Git (basic commands), VS Code
+Databases: Worked with SQLite, familiar with PostgreSQL
+
+EXPERIENCE
+
+Software Developer | WebTech Solutions | San Jose, CA
+June 2022 - Present
+• Write code for web application features
+• Familiar with Docker containers
+• Exposure to Kubernetes through team discussions
+• Basic understanding of CI/CD pipelines
+• Attended training sessions on microservices architecture
+• Learning about REST API design
+• Some experience with unit testing using pytest
+
+Junior Developer | LocalCompany | San Jose, CA
+July 2021 - May 2022
+• Worked on HTML/CSS for company website
+• Made small JavaScript changes under supervision
+• Familiar with agile methodology from sprint meetings
+• Exposure to SQL queries for simple data retrieval
+• Learning Python basics through online courses
+
+EDUCATION
+Bachelor of Science in Information Technology | State University | 2021
+GPA: 3.2/4.0
+
+PROJECTS
+• Built todo list application following React tutorial
+• Deployed simple Flask app to Heroku once
+• Completed several online courses on Udemy and Coursera
+
+ADDITIONAL
+• Familiar with Linux command line basics
+• Some exposure to software design patterns through reading
+• Learning about system design and scalability concepts
+• Attended 2 tech meetups in the area

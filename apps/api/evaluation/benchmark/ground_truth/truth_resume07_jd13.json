@@ -1,0 +1,69 @@
+{
+  "resume_id": "resume_07_executive_cto",
+  "resume_file": "resume_07_executive_cto.txt",
+  "jd_id": "jd_13_cto",
+  "jd_file": "jd_13_cto.txt",
+  "expected_match_score": 0.93,
+  "score_range": [0.90, 0.96],
+  "match_category": "strong_match",
+  "match_rationale": "Robert Anderson is an excellent match for this CTO role. 15+ years of experience with 5+ years as CTO. Proven track record scaling teams to 150+ engineers, raising $100M+, and building engineering culture. Deep technical expertise and strong business acumen.",
+  "key_matched_skills": [
+    "15+ years technology leadership",
+    "5+ years as CTO",
+    "Scaled teams to 150+ engineers",
+    "Full stack technical expertise",
+    "Cloud infrastructure at scale",
+    "SaaS product development",
+    "Strategic thinking and business acumen",
+    "Fundraising experience ($100M+)",
+    "Board and investor communication",
+    "Security and compliance (SOC2, HIPAA)",
+    "Talent acquisition and retention",
+    "M&A technical due diligence",
+    "AI/ML technologies"
+  ],
+  "missing_critical_skills": [],
+  "partially_matched_skills": {},
+  "ats_score_expectations": {
+    "keyword_density": [0.88, 0.97],
+    "section_completeness": 1.0,
+    "format_quality": [0.92, 1.0],
+    "experience_match": [0.93, 1.0]
+  },
+  "hallucination_check": {
+    "fabricated_skills": [],
+    "exaggerated_experience": false,
+    "invented_companies": false,
+    "skill_level_inflation": false,
+    "date_inconsistencies": false
+  },
+  "detailed_skill_comparison": {
+    "required_skills_coverage": 1.0,
+    "preferred_skills_coverage": 0.95,
+    "experience_level_match": "meets_requirement",
+    "education_match": true
+  },
+  "red_flags": [],
+  "strengths": [
+    "Exact experience level match (15+ years, 5+ as CTO)",
+    "Proven track record scaling to 150+ engineers",
+    "Successful fundraising history ($100M+)",
+    "Technical depth across full stack and infrastructure",
+    "Strong AI/ML expertise matching company needs",
+    "M&A and due diligence experience",
+    "Security and compliance achievements",
+    "Board-level communication skills",
+    "Published thought leadership and speaking",
+    "Strong education (Stanford MS in CS)",
+    "Advisory roles demonstrate continued learning",
+    "Awards and recognition from industry"
+  ],
+  "weaknesses": [
+    "No specific mention of MBA (listed as 'preferred' in JD)",
+    "Could assess cultural fit and management style",
+    "Verify references at executive level"
+  ],
+  "recommendation": "Excellent candidate - advance to final rounds with CEO and board",
+  "confidence_level": 0.95,
+  "notes": "Robert is a top-tier CTO candidate with the exact profile sought. Experience scaling teams, fundraising, and building engineering culture all align perfectly. Deep technical background combined with strategic thinking. Only minor note is no MBA mentioned but has Stanford executive education. Should proceed with executive interviews, reference checks with former board members and direct reports, and cultural fit assessment."
+}

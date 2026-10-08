@@ -1,0 +1,79 @@
+AMANDA JOHNSON
+Senior Product Manager
+
+Email: amanda.johnson@email.com | Phone: (212) 555-0165
+Location: New York, NY | LinkedIn: linkedin.com/in/amandajohnson
+
+SUMMARY
+Strategic product leader with 7 years driving B2B SaaS products from concept to scale. Track record of launching features that increased revenue by $5M+ and user engagement by 40%. Expert in data-driven decision making, stakeholder management, and agile methodologies.
+
+CORE COMPETENCIES
+Product Strategy & Roadmap Planning | User Research & Analytics | A/B Testing & Experimentation
+Agile & Scrum Methodologies | Stakeholder Management | Go-to-Market Strategy
+SQL & Data Analysis | Product Metrics & KPIs | Technical Product Management
+
+TOOLS & TECHNOLOGIES
+Product Management: Jira, Asana, Productboard, Aha!, Miro, Confluence
+Analytics: Mixpanel, Amplitude, Google Analytics, Looker, SQL (PostgreSQL)
+Design: Figma, Adobe XD, user testing platforms
+Communication: Slack, Zoom, Google Workspace, Microsoft Office
+
+PROFESSIONAL EXPERIENCE
+
+Senior Product Manager | ProductCo | New York, NY
+March 2020 - Present
+• Own product roadmap for enterprise collaboration platform with 50K+ users and $10M ARR
+• Launched AI-powered search feature increasing user engagement by 35% and reducing support tickets by 25%
+• Conducted 50+ customer interviews and usability tests to validate product hypotheses
+• Implemented data-driven prioritization framework reducing time-to-market by 40%
+• Collaborated with engineering team of 12 to deliver quarterly product releases
+• Managed product P&L and achieved 25% YoY revenue growth
+• Presented product strategy to C-suite and board of directors quarterly
+• Mentored 2 associate product managers on product discovery and delivery
+
+Product Manager | SaaS Solutions Inc. | New York, NY
+June 2017 - February 2020
+• Managed product development for analytics dashboard serving 10K+ users
+• Increased user retention from 65% to 82% through feature improvements and UX optimization
+• Built pricing and packaging strategy resulting in 30% increase in conversion rate
+• Led cross-functional team of engineers, designers, and marketers
+• Ran A/B tests and experiments to optimize conversion funnel
+• Created detailed product requirements documents and user stories
+• Analyzed product metrics using SQL and built dashboards in Looker
+
+Associate Product Manager | TechStartup | Brooklyn, NY
+August 2016 - May 2017
+• Supported senior PM on product roadmap and feature development
+• Gathered requirements from customers and internal stakeholders
+• Wrote user stories and acceptance criteria for engineering team
+• Conducted competitive analysis and market research
+• Participated in sprint planning and retrospectives
+
+Business Analyst | ConsultingCorp | New York, NY
+July 2015 - July 2016
+• Analyzed business processes and recommended improvements for Fortune 500 clients
+• Created data visualizations and reports for executive presentations
+• Gathered requirements and translated into technical specifications
+• Facilitated stakeholder workshops and requirements sessions
+
+EDUCATION
+Master of Business Administration (MBA) | NYU Stern School of Business | 2019
+Concentration: Technology & Entrepreneurship | GPA: 3.8/4.0
+
+Bachelor of Science in Computer Science | Cornell University | 2015
+Minor: Business Administration | GPA: 3.7/4.0
+
+CERTIFICATIONS
+• Certified Scrum Product Owner (CSPO)
+• Product Management Certificate - General Assembly
+• Google Analytics Individual Qualification
+
+ACHIEVEMENTS
+• "Top 10 Product Managers to Watch" - Product Management Today (2023)
+• Led product that won "Best B2B SaaS Product" at SaaStr Annual 2022
+• Speaker at ProductCon NYC 2023 - "Data-Driven Product Management"
+
+ADDITIONAL SKILLS
+• Technical background with understanding of APIs, databases, and software architecture
+• Proficient in SQL for data analysis and product insights
+• Experience working with engineering teams on technical product decisions

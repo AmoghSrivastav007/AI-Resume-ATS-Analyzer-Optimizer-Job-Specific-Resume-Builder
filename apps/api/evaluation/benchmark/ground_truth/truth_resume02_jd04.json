@@ -1,0 +1,74 @@
+{
+  "resume_id": "resume_02_entry_frontend",
+  "resume_file": "resume_02_entry_frontend.txt",
+  "jd_id": "jd_04_frontend_engineer",
+  "jd_file": "jd_04_frontend_engineer.txt",
+  "expected_match_score": 0.62,
+  "score_range": [0.57, 0.67],
+  "match_category": "moderate_match",
+  "match_rationale": "Michael Rodriguez has relevant frontend skills but only 2 years of experience versus the required 3+. Core skills align (React, TypeScript, responsive design) but lacks depth in advanced areas like SSR, testing frameworks, and performance optimization.",
+  "key_matched_skills": [
+    "React",
+    "TypeScript",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Responsive design",
+    "Git",
+    "Figma",
+    "State management (Redux, Context API)",
+    "REST APIs"
+  ],
+  "missing_critical_skills": [
+    "Next.js or SSR frameworks",
+    "Testing frameworks (Jest, React Testing Library, Cypress)",
+    "Performance optimization",
+    "Accessibility standards (WCAG)"
+  ],
+  "partially_matched_skills": {
+    "Webpack/Vite": "Mentioned Webpack and Vite but unclear depth",
+    "Design systems": "No explicit mention",
+    "GraphQL": "Not mentioned"
+  },
+  "ats_score_expectations": {
+    "keyword_density": [0.60, 0.75],
+    "section_completeness": 0.90,
+    "format_quality": [0.70, 0.85],
+    "experience_match": [0.55, 0.70]
+  },
+  "hallucination_check": {
+    "fabricated_skills": [],
+    "exaggerated_experience": false,
+    "invented_companies": false,
+    "skill_level_inflation": false,
+    "date_inconsistencies": false
+  },
+  "detailed_skill_comparison": {
+    "required_skills_coverage": 0.70,
+    "preferred_skills_coverage": 0.20,
+    "experience_level_match": "below_minimum",
+    "education_match": true
+  },
+  "red_flags": [
+    "Experience level below requirement (2 years vs 3+ required)",
+    "Limited testing experience",
+    "No production-scale application experience mentioned"
+  ],
+  "strengths": [
+    "Solid React and TypeScript foundation",
+    "Good design sensibility with Figma skills",
+    "Modern frontend stack knowledge",
+    "Enthusiasm and learning orientation",
+    "Portfolio demonstrates completed projects"
+  ],
+  "weaknesses": [
+    "Below minimum experience requirement",
+    "No testing framework experience",
+    "Limited performance optimization skills",
+    "No SSR/Next.js experience",
+    "Weak accessibility knowledge"
+  ],
+  "recommendation": "Consider for junior role or with salary adjustment - would need mentorship",
+  "confidence_level": 0.80,
+  "notes": "Michael has the right skill foundation but lacks the depth expected for this mid-level role. Could be a good fit with expectation of rapid growth and mentorship. Experience gap is the main concern."
+}

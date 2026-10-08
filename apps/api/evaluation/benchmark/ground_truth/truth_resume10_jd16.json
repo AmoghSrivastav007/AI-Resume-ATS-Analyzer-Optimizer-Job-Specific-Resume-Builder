@@ -1,0 +1,74 @@
+{
+  "resume_id": "resume_10_mid_ux_design",
+  "resume_file": "resume_10_mid_ux_design.txt",
+  "jd_id": "jd_16_ux_designer",
+  "jd_file": "jd_16_ux_designer.txt",
+  "expected_match_score": 0.84,
+  "score_range": [0.80, 0.88],
+  "match_category": "strong_match",
+  "match_rationale": "Olivia Martinez is a strong match with 4 years of UX design experience meeting the 3+ requirement. Expert in Figma, strong user research skills, design systems experience, and proven impact on user satisfaction. Portfolio demonstrates quality work.",
+  "key_matched_skills": [
+    "4 years UX/UI design experience",
+    "Strong portfolio",
+    "Figma expert",
+    "User research (interviews, usability testing, surveys)",
+    "Interaction design",
+    "Information architecture",
+    "Design systems",
+    "Wireframing and prototyping",
+    "Visual design",
+    "Communication skills",
+    "Cross-functional collaboration",
+    "Adobe XD, Sketch",
+    "HTML/CSS knowledge"
+  ],
+  "missing_critical_skills": [],
+  "partially_matched_skills": {
+    "Framer": "Has Principle and ProtoPie, not Framer specifically",
+    "JavaScript": "HTML/CSS yes, JavaScript not confirmed",
+    "Motion design": "Basic After Effects mentioned"
+  },
+  "ats_score_expectations": {
+    "keyword_density": [0.80, 0.90],
+    "section_completeness": 1.0,
+    "format_quality": [0.85, 0.93],
+    "experience_match": [0.82, 0.92]
+  },
+  "hallucination_check": {
+    "fabricated_skills": [],
+    "exaggerated_experience": false,
+    "invented_companies": false,
+    "skill_level_inflation": false,
+    "date_inconsistencies": false
+  },
+  "detailed_skill_comparison": {
+    "required_skills_coverage": 0.95,
+    "preferred_skills_coverage": 0.65,
+    "experience_level_match": "meets_requirement",
+    "education_match": true
+  },
+  "red_flags": [],
+  "strengths": [
+    "Exceeds minimum experience (4 years vs 3+ required)",
+    "Figma expert (primary tool match)",
+    "Strong user research methodology",
+    "Design system experience (built from scratch)",
+    "Proven impact on metrics (CSAT 7.2 to 8.6, 40% reduction in onboarding time)",
+    "Accessibility knowledge (WCAG 2.1)",
+    "Portfolio with 8 case studies",
+    "NN/g certification",
+    "Industry recognition (award winner, Dribbble following)",
+    "Speaking experience",
+    "HTML/CSS technical skills",
+    "BFA in Digital Design"
+  ],
+  "weaknesses": [
+    "Limited JavaScript knowledge (helpful for React collaboration)",
+    "No Framer experience (has other prototyping tools)",
+    "Basic motion design skills",
+    "Could have more mobile platform experience"
+  ],
+  "recommendation": "Strong hire - excellent design skills with proven impact",
+  "confidence_level": 0.88,
+  "notes": "Olivia is a solid UX designer with well-rounded skills. Strong user research foundation combined with visual design execution. Design system experience is valuable for mature products. Proven ability to improve metrics demonstrates business impact awareness. Portfolio with case studies shows design thinking process. NN/g certification adds credibility. Only minor gaps in some preferred tools (Framer, advanced motion design) which are easily learned. Would fit well in collaborative product team."
+}

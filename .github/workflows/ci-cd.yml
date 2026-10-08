@@ -1,0 +1,231 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  PYTHON_VERSION: '3.11'
+  NODE_VERSION: '18'
+
+jobs:
+  # Backend linting and testing
+  backend-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./apps/api
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+          cache-dependency-path: apps/api/requirements.txt
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-cov flake8 black isort
+      
+      - name: Lint with flake8
+        run: |
+          # Stop the build if there are Python syntax errors or undefined names
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+          # Exit-zero treats all errors as warnings
+          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+        continue-on-error: true
+      
+      - name: Check code formatting with black
+        run: black --check .
+        continue-on-error: true
+      
+      - name: Check import sorting with isort
+        run: isort --check-only .
+        continue-on-error: true
+      
+      - name: Run unit tests
+        run: |
+          pytest tests/services/ tests/deterministic/ -v --cov=services --cov=services.parser --cov-report=xml --cov-report=term
+        env:
+          PYTHONPATH: ${{ github.workspace }}/apps/api
+      
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          file: ./apps/api/coverage.xml
+          flags: backend
+          name: backend-coverage
+        continue-on-error: true
+
+  # Evaluation tests (hallucination detection)
+  evaluation-test:
+    runs-on: ubuntu-latest
+    needs: backend-test
+    defaults:
+      run:
+        working-directory: ./apps/api
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+          cache-dependency-path: apps/api/requirements.txt
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Run hallucination detection tests
+        run: |
+          python evaluation/run_hallucination_eval.py --verbose
+        env:
+          PYTHONPATH: ${{ github.workspace }}/apps/api
+        # Fail the pipeline if hallucination tests fail (zero-tolerance)
+        continue-on-error: false
+      
+      - name: Upload hallucination test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hallucination-results
+          path: apps/api/evaluation/hallucination_results.json
+          retention-days: 30
+
+  # Frontend linting and building
+  frontend-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./apps/web
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: apps/web/package-lock.json
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Lint
+        run: npm run lint
+        continue-on-error: true
+      
+      - name: Type check
+        run: npm run type-check
+        continue-on-error: true
+      
+      - name: Build
+        run: npm run build
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+
+  # Deploy frontend to Vercel
+  deploy-frontend:
+    runs-on: ubuntu-latest
+    needs: [frontend-test, backend-test, evaluation-test]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          working-directory: ./apps/web
+          vercel-args: '--prod'
+      
+      - name: Notify deployment success
+        if: success()
+        run: echo "✅ Frontend deployed to Vercel"
+
+  # Deploy backend to Railway
+  deploy-backend:
+    runs-on: ubuntu-latest
+    needs: [frontend-test, backend-test, evaluation-test]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install Railway CLI
+        run: npm install -g @railway/cli
+      
+      - name: Deploy API to Railway
+        run: railway up --service api
+        working-directory: ./apps/api
+        env:
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+      
+      - name: Deploy Worker to Railway
+        run: railway up --service worker
+        working-directory: ./apps/api
+        env:
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+        continue-on-error: true  # Worker might not be set up yet
+      
+      - name: Notify deployment success
+        if: success()
+        run: echo "✅ Backend deployed to Railway"
+
+  # Health check after deployment
+  health-check:
+    runs-on: ubuntu-latest
+    needs: [deploy-frontend, deploy-backend]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    
+    steps:
+      - name: Wait for deployment to stabilize
+        run: sleep 30
+      
+      - name: Check API health
+        run: |
+          response=$(curl -s -o /dev/null -w "%{http_code}" ${{ secrets.API_URL }}/health)
+          if [ $response -eq 200 ]; then
+            echo "✅ API health check passed"
+          else
+            echo "❌ API health check failed with status $response"
+            exit 1
+          fi
+      
+      - name: Check frontend
+        run: |
+          response=$(curl -s -o /dev/null -w "%{http_code}" ${{ secrets.FRONTEND_URL }})
+          if [ $response -eq 200 ]; then
+            echo "✅ Frontend health check passed"
+          else
+            echo "❌ Frontend health check failed with status $response"
+            exit 1
+          fi
+
+  # Notify on failure
+  notify-failure:
+    runs-on: ubuntu-latest
+    needs: [backend-test, evaluation-test, frontend-test, deploy-frontend, deploy-backend, health-check]
+    if: failure() && github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Notify deployment failure
+        run: |
+          echo "❌ Deployment pipeline failed"
+          echo "Check the workflow logs for details"

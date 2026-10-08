@@ -1,0 +1,44 @@
+Frontend Engineer
+
+Company: DesignFirst Technologies
+Location: Seattle, WA (Remote)
+Type: Full-time
+
+About the Role:
+We're seeking a Frontend Engineer to create beautiful, performant user interfaces. You'll work closely with designers and backend engineers to deliver exceptional user experiences.
+
+Required Skills:
+- 3+ years of frontend development experience
+- Expert knowledge of React and modern JavaScript (ES6+)
+- Strong proficiency in TypeScript
+- Experience with state management (Redux, Zustand, or Context API)
+- Solid understanding of HTML5, CSS3, and responsive design
+- Experience with CSS frameworks (Tailwind, Styled Components, or CSS Modules)
+- Knowledge of REST APIs and async data fetching
+- Familiarity with build tools (Webpack, Vite, or Rollup)
+- Experience with version control (Git)
+- Strong eye for design and UX details
+
+Preferred Skills:
+- Experience with Next.js or other SSR frameworks
+- Knowledge of testing frameworks (Jest, React Testing Library, Cypress)
+- Familiarity with design systems and component libraries
+- Experience with performance optimization techniques
+- Understanding of accessibility standards (WCAG)
+- Knowledge of GraphQL
+- Experience with animation libraries (Framer Motion, GSAP)
+
+Responsibilities:
+- Build responsive, accessible web applications
+- Implement pixel-perfect designs from Figma mockups
+- Optimize application performance and bundle size
+- Write clean, maintainable, and reusable components
+- Collaborate with designers and backend engineers
+- Participate in code reviews
+- Ensure cross-browser compatibility
+
+Education:
+Bachelor's degree in Computer Science, Design, or related field, or equivalent experience
+
+Benefits:
+Competitive salary, stock options, health insurance, remote work, learning budget, home office stipend

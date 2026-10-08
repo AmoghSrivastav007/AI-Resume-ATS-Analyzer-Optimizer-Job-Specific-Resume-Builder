@@ -1,0 +1,86 @@
+DANIEL PARKER
+Senior Software Engineer
+
+Email: daniel.parker@email.com | Phone: (650) 555-0211
+Location: San Francisco, CA | LinkedIn: linkedin.com/in/danielparker
+
+PROFESSIONAL SUMMARY
+Accomplished software engineer with 8 years of experience building scalable systems and leading technical initiatives. Proven track record of delivering high-impact projects and driving engineering excellence.
+
+TECHNICAL SKILLS
+Languages: Python, Java, JavaScript, Go, C++
+Frameworks: Django, FastAPI, Spring Boot, React
+Databases: PostgreSQL, MySQL, MongoDB, Redis, Cassandra
+Cloud: AWS, Google Cloud Platform, Azure
+DevOps: Docker, Kubernetes, Terraform, Jenkins, GitHub Actions
+Architecture: Microservices, Event-Driven, Distributed Systems
+
+PROFESSIONAL EXPERIENCE
+
+Lead Software Engineer | TechGlobal Solutions Inc. | San Francisco, CA
+January 2020 - Present
+
+• Lead team of 10 engineers building next-generation cloud platform
+• Architected microservices infrastructure serving 1 million+ active users
+• Reduced system latency by 60% through optimization and caching strategies
+• Implemented real-time data processing pipeline handling 10TB daily
+• Mentored 5 junior engineers and conducted technical interviews
+• Drove adoption of best practices and modern development workflows
+• Collaborated with product and design teams on feature roadmap
+• Managed on-call rotation and production incident response
+
+Senior Software Engineer | CloudInnovate Systems | Palo Alto, CA
+March 2018 - December 2019
+
+• Architected and deployed microservices platform serving 500K+ users
+• Built high-performance APIs processing 50K requests per second
+• Implemented advanced caching strategies reducing infrastructure costs by 40%
+• Led technical design reviews and architectural decision-making
+• Mentored team of 6 engineers on system design and coding standards
+• Established CI/CD pipelines and DevOps practices
+• Optimized database queries improving response time by 70%
+
+Software Engineer | AI Dynamics Corporation | San Francisco, CA
+June 2016 - February 2018
+
+• Developed machine learning infrastructure for AI-powered products
+• Built data pipelines processing 500GB+ daily using Spark and Airflow
+• Reduced cloud infrastructure costs by $500K annually through optimization
+• Implemented monitoring and alerting systems for production services
+• Collaborated with data science team on ML model deployment
+• Contributed to open-source projects and internal tool development
+
+Junior Software Engineer | Digital Solutions Group | San Jose, CA
+August 2015 - May 2016
+
+• Developed backend services using Python and Django
+• Built RESTful APIs for mobile and web applications
+• Wrote unit and integration tests achieving 85% coverage
+• Participated in agile development and scrum ceremonies
+• Learned distributed systems and cloud infrastructure
+
+EDUCATION
+
+Bachelor of Science in Computer Science | Stanford University | 2015
+GPA: 3.7/4.0
+Relevant Coursework: Distributed Systems, Machine Learning, Algorithms
+
+ACHIEVEMENTS
+
+• Led migration to Kubernetes reducing deployment time by 80%
+• Designed caching architecture saving $2M in infrastructure costs
+• Published technical articles on system design reaching 100K+ readers
+• Speaker at Bay Area tech conferences on microservices architecture
+• Awarded "Engineer of the Year" at TechGlobal Solutions (2022)
+
+TECHNICAL PROJECTS
+
+• Open Source: Core contributor to popular Python frameworks (1K+ GitHub stars)
+• Side Project: Built SaaS platform serving 10K users
+• Research: Published paper on distributed systems optimization
+
+CERTIFICATIONS
+
+• AWS Certified Solutions Architect - Professional
+• Certified Kubernetes Administrator (CKA)
+• Google Cloud Professional Architect

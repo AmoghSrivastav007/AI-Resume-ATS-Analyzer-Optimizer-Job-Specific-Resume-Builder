@@ -1,0 +1,77 @@
+JESSICA THOMPSON
+Security Engineer
+
+Email: jessica.thompson@email.com | Phone: (202) 555-0174
+Location: Washington, DC | LinkedIn: linkedin.com/in/jessicathompson
+
+SUMMARY
+Security engineer with 5 years protecting cloud infrastructure and applications. Specialized in penetration testing, vulnerability management, and security automation. CISSP certified with hands-on experience in AWS security and compliance.
+
+TECHNICAL SKILLS
+Security: Penetration Testing, Vulnerability Assessment, Security Architecture, Incident Response
+Frameworks: OWASP, NIST Cybersecurity Framework, CIS Controls, MITRE ATT&CK
+Tools: Burp Suite, Metasploit, Nmap, Wireshark, Nessus, Qualys, Splunk, SIEM
+Cloud Security: AWS Security Hub, GuardDuty, IAM, Security Groups, KMS, CloudTrail
+Scripting: Python, Bash, PowerShell
+Compliance: SOC2, HIPAA, GDPR, PCI-DSS
+Infrastructure: Docker, Kubernetes, Linux, Windows Server
+
+PROFESSIONAL EXPERIENCE
+
+Security Engineer | SecureStack Technologies | Washington, DC
+April 2021 - Present
+• Conduct penetration testing and security assessments on web applications and infrastructure
+• Implement security controls and monitoring in AWS environment serving 50K+ users
+• Perform vulnerability scanning and coordinate remediation with development teams
+• Built automated security scanning pipeline reducing vulnerability detection time by 70%
+• Respond to security incidents achieving average resolution time of 4 hours
+• Achieved SOC2 Type II certification and maintain ongoing compliance
+• Conduct security awareness training for 100+ employees quarterly
+• Implement WAF rules and DDoS protection using AWS Shield and CloudFront
+
+Information Security Analyst | CyberDefense Corp | Arlington, VA
+June 2019 - March 2021
+• Monitored SIEM alerts and investigated security events using Splunk
+• Conducted vulnerability assessments and tracked remediation progress
+• Performed security code reviews and provided remediation guidance
+• Assisted with incident response and forensics investigations
+• Maintained security documentation and runbooks
+• Participated in on-call rotation for security operations center
+
+Junior Security Analyst | TechSecure Inc. | Washington, DC
+July 2018 - May 2019
+• Analyzed security logs and identified potential threats
+• Assisted with vulnerability scans and penetration tests
+• Documented security findings and created remediation tickets
+• Helped maintain firewall rules and access controls
+• Participated in security awareness initiatives
+
+EDUCATION
+Bachelor of Science in Cybersecurity | George Washington University | 2018
+GPA: 3.7/4.0
+Relevant Coursework: Network Security, Cryptography, Ethical Hacking, Digital Forensics
+
+CERTIFICATIONS
+• Certified Information Systems Security Professional (CISSP) - 2022
+• Certified Ethical Hacker (CEH) - 2021
+• AWS Certified Security - Specialty - 2023
+• CompTIA Security+ - 2018
+• GIAC Security Essentials (GSEC) - 2020
+
+PROJECTS & ACHIEVEMENTS
+• Led security remediation project reducing critical vulnerabilities by 85%
+• Implemented security automation tools saving 15 hours per week
+• Discovered and responsibly disclosed 3 critical vulnerabilities in open source projects
+• Built security scanning tool open sourced on GitHub (150+ stars)
+
+PROFESSIONAL DEVELOPMENT
+• Active participant in OWASP DC chapter meetings
+• Completed SANS SEC542: Web App Penetration Testing course
+• Regular attendee of DEF CON and Black Hat conferences
+• Maintain home security lab for hands-on practice
+
+ADDITIONAL SKILLS
+• Experience with container security scanning (Trivy, Anchore)
+• Knowledge of zero trust architecture principles
+• Familiar with threat modeling and risk assessment
+• Understanding of secure software development lifecycle

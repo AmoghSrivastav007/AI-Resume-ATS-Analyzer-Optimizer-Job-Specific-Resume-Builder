@@ -1,0 +1,47 @@
+VP of Engineering
+
+Company: ScaleTech Solutions
+Location: Seattle, WA (Hybrid)
+Type: Full-time, Executive
+
+About the Role:
+Lead our engineering organization to deliver world-class products. You'll manage engineering managers, drive execution, and build high-performing teams. Reports to CTO.
+
+Required Skills:
+- 10+ years of software engineering experience
+- 5+ years of engineering management experience
+- Experience managing managers and teams of 30+ engineers
+- Strong technical background in modern software development
+- Track record of shipping products at scale
+- Experience with agile methodologies and engineering best practices
+- Excellent people management and mentorship skills
+- Strong collaboration with product and design leaders
+- Data-driven approach to engineering metrics
+- Experience with distributed and remote teams
+
+Preferred Skills:
+- Experience in SaaS or cloud-based products
+- Knowledge of DevOps and CI/CD practices
+- Familiarity with microservices architecture
+- Experience with hiring and talent development programs
+- Understanding of engineering productivity metrics
+- Track record of improving engineering processes
+- Experience with engineering tools and platforms
+
+Responsibilities:
+- Lead engineering team of managers and individual contributors
+- Drive engineering roadmap and execution
+- Establish engineering standards and best practices
+- Build and scale engineering teams through hiring and development
+- Collaborate with product and design on feature prioritization
+- Manage engineering budget and resource planning
+- Implement processes for code quality and system reliability
+- Foster culture of innovation and continuous improvement
+- Report on engineering progress to executive team
+- Mentor and develop engineering managers
+
+Education:
+Bachelor's degree in Computer Science, Engineering, or related field; advanced degree preferred
+
+Compensation:
+$250K-$350K base salary, equity package, comprehensive executive benefits

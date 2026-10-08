@@ -1,0 +1,46 @@
+QA Engineer
+
+Company: QualityFirst Software
+Location: Austin, TX (Hybrid)
+Type: Full-time
+
+About the Role:
+Ensure product quality through comprehensive testing strategies. You'll design test plans, automate tests, and work closely with development teams to catch bugs early.
+
+Required Skills:
+- 3+ years of QA or test automation experience
+- Strong understanding of software testing methodologies
+- Experience with test automation frameworks (Selenium, Cypress, Playwright, or Puppeteer)
+- Proficiency in at least one programming language (Python, JavaScript, or Java)
+- Knowledge of API testing tools (Postman, REST Assured)
+- Experience with test planning and test case design
+- Understanding of CI/CD pipelines and integration
+- Familiarity with bug tracking systems (Jira, Linear)
+- Strong analytical and debugging skills
+- Excellent attention to detail
+
+Preferred Skills:
+- Experience with performance testing (JMeter, K6, Locust)
+- Knowledge of security testing practices
+- Familiarity with mobile testing (Appium, XCUITest, Espresso)
+- Experience with BDD frameworks (Cucumber, SpecFlow)
+- Understanding of accessibility testing
+- Knowledge of database testing and SQL
+- Experience with load and stress testing
+
+Responsibilities:
+- Design and execute comprehensive test plans
+- Develop and maintain automated test suites
+- Perform functional, integration, and regression testing
+- Identify, document, and track defects
+- Collaborate with developers on bug fixes
+- Conduct exploratory testing
+- Review requirements and provide testability feedback
+- Monitor test coverage and quality metrics
+- Participate in release planning and deployment
+
+Education:
+Bachelor's degree in Computer Science, Engineering, or related field
+
+Benefits:
+Competitive salary, stock options, health insurance, flexible schedule, professional development, hybrid work

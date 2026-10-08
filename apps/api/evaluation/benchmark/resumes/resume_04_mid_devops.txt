@@ -1,0 +1,68 @@
+DAVID MARTINEZ
+DevOps Engineer
+
+david.martinez@email.com | (617) 555-0142 | Boston, MA
+LinkedIn: linkedin.com/in/davidmartinez-devops
+
+SUMMARY
+DevOps engineer with 5 years of experience building and maintaining cloud infrastructure. Specialized in AWS, Kubernetes, and infrastructure automation. Strong focus on reliability, security, and cost optimization.
+
+CORE SKILLS
+Cloud Platforms: AWS (EC2, ECS, EKS, S3, RDS, Lambda, CloudFormation), GCP (basic)
+Containers & Orchestration: Docker, Kubernetes, Helm, Amazon ECS
+Infrastructure as Code: Terraform, CloudFormation, Ansible
+CI/CD: GitHub Actions, GitLab CI, Jenkins, ArgoCD
+Monitoring: Prometheus, Grafana, ELK Stack, Datadog, CloudWatch
+Scripting: Python, Bash, PowerShell
+Networking: VPC, Load Balancers, Route53, Cloudflare
+Security: IAM, Security Groups, Secrets Manager, Vault
+
+PROFESSIONAL EXPERIENCE
+
+DevOps Engineer | InfraCloud Inc. | Boston, MA
+February 2021 - Present
+• Manage AWS infrastructure for SaaS platform serving 100K+ users
+• Designed and implemented Kubernetes clusters on EKS reducing deployment time by 60%
+• Built Terraform modules for infrastructure provisioning achieving 100% infrastructure-as-code
+• Implemented GitOps workflow using ArgoCD for automated deployments
+• Set up comprehensive monitoring with Prometheus and Grafana reducing MTTR by 45%
+• Optimized AWS costs saving $8K/month through rightsizing and reserved instances
+• Automated backup and disaster recovery procedures achieving RPO <1 hour
+• Participated in on-call rotation maintaining 99.95% uptime SLA
+
+Site Reliability Engineer | CloudTech Solutions | Cambridge, MA
+July 2019 - January 2021
+• Built CI/CD pipelines using GitHub Actions automating testing and deployment
+• Configured and maintained Kubernetes clusters for microservices architecture
+• Implemented infrastructure monitoring and alerting reducing incident response time by 50%
+• Wrote Python scripts for automation of routine operations tasks
+• Collaborated with development team on container optimization and best practices
+• Managed PostgreSQL databases including backups, replication, and performance tuning
+
+Junior Systems Administrator | TechStartup Inc. | Boston, MA
+June 2018 - June 2019
+• Maintained Linux servers and performed system updates
+• Assisted with AWS infrastructure setup and configuration
+• Created deployment scripts using Bash and Python
+• Monitored system performance and responded to alerts
+• Documented procedures and runbooks
+
+EDUCATION
+Bachelor of Science in Information Technology | Boston University | 2018
+GPA: 3.6/4.0
+
+CERTIFICATIONS
+• AWS Certified Solutions Architect - Professional (2023)
+• Certified Kubernetes Administrator (CKA) (2022)
+• HashiCorp Certified: Terraform Associate (2021)
+• AWS Certified SysOps Administrator - Associate (2020)
+
+PROJECTS
+• Open Source: Contributed to Terraform AWS modules (50+ GitHub stars)
+• Homelab: Self-hosted Kubernetes cluster running Pi-hole, Plex, and monitoring stack
+• Blog: Technical articles on DevOps practices (medium.com/@davidmartinez)
+
+ADDITIONAL
+• Regular speaker at Boston DevOps meetup
+• Active in DevOps Slack communities and forums
+• Stay current with cloud-native technologies and CNCF projects

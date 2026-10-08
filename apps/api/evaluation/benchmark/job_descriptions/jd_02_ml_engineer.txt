@@ -1,0 +1,43 @@
+Machine Learning Engineer
+
+Company: DataDrive AI
+Location: New York, NY (Remote)
+Type: Full-time
+
+About the Role:
+We're looking for a talented Machine Learning Engineer to build and deploy production ML systems. You'll work on recommendation systems, natural language processing, and computer vision projects that serve millions of users.
+
+Required Skills:
+- 3+ years of experience in machine learning and deep learning
+- Strong programming skills in Python
+- Experience with ML frameworks (TensorFlow, PyTorch, scikit-learn)
+- Solid understanding of machine learning algorithms (supervised, unsupervised, reinforcement learning)
+- Experience deploying ML models to production
+- Knowledge of data preprocessing and feature engineering
+- Familiarity with SQL and data manipulation (Pandas, NumPy)
+- Experience with model evaluation and optimization techniques
+- Strong mathematical foundation (linear algebra, statistics, calculus)
+
+Preferred Skills:
+- Experience with MLOps tools (MLflow, Kubeflow, SageMaker)
+- Knowledge of NLP techniques and transformer models (BERT, GPT)
+- Experience with computer vision (CNNs, object detection, segmentation)
+- Familiarity with cloud ML services (AWS SageMaker, GCP Vertex AI, Azure ML)
+- Experience with distributed training (Horovod, Ray)
+- Knowledge of model compression and optimization techniques
+- Publications or research in ML/AI
+
+Responsibilities:
+- Design, develop, and deploy machine learning models
+- Build data pipelines for training and inference
+- Optimize model performance and inference latency
+- Collaborate with data scientists and engineers
+- Monitor model performance and implement retraining strategies
+- Stay current with latest ML research and techniques
+- Document models, experiments, and best practices
+
+Education:
+Bachelor's or Master's degree in Computer Science, Machine Learning, Statistics, or related field
+
+Benefits:
+Competitive compensation, stock options, comprehensive health coverage, learning stipend, flexible work hours

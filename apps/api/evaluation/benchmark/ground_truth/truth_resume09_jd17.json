@@ -1,0 +1,80 @@
+{
+  "resume_id": "resume_09_entry_qa",
+  "resume_file": "resume_09_entry_qa.txt",
+  "jd_id": "jd_17_qa_engineer",
+  "jd_file": "jd_17_qa_engineer.txt",
+  "expected_match_score": 0.58,
+  "score_range": [0.53, 0.63],
+  "match_category": "moderate_match",
+  "match_rationale": "Emily Nguyen has relevant QA skills but only 1.5 years experience versus 3+ required. Has automation fundamentals with Selenium and Python, but limited depth. Good foundation but would need mentorship and growth time.",
+  "key_matched_skills": [
+    "Manual testing",
+    "Test automation (Selenium)",
+    "Python",
+    "API testing (Postman)",
+    "Jira",
+    "Git",
+    "Test planning and test cases",
+    "Agile/Scrum",
+    "Attention to detail"
+  ],
+  "missing_critical_skills": [
+    "Cypress or Playwright (learning but not experienced)",
+    "REST Assured or advanced API testing frameworks",
+    "CI/CD integration experience",
+    "Performance testing",
+    "Security testing"
+  ],
+  "partially_matched_skills": {
+    "JavaScript": "Basic only, needed for Cypress/Playwright",
+    "Cypress": "Listed as 'basic' and 'learning'",
+    "SQL": "Basic queries, not advanced testing",
+    "Programming depth": "Python for automation but limited scope"
+  },
+  "ats_score_expectations": {
+    "keyword_density": [0.55, 0.68],
+    "section_completeness": 0.85,
+    "format_quality": [0.75, 0.85],
+    "experience_match": [0.45, 0.60]
+  },
+  "hallucination_check": {
+    "fabricated_skills": [],
+    "exaggerated_experience": false,
+    "invented_companies": false,
+    "skill_level_inflation": false,
+    "date_inconsistencies": false
+  },
+  "detailed_skill_comparison": {
+    "required_skills_coverage": 0.60,
+    "preferred_skills_coverage": 0.25,
+    "experience_level_match": "below_minimum",
+    "education_match": true
+  },
+  "red_flags": [
+    "Experience below minimum (1.5 years vs 3+ required)",
+    "Limited automation framework diversity",
+    "No performance or security testing experience",
+    "Weak CI/CD knowledge",
+    "Junior-level depth across most skills"
+  ],
+  "strengths": [
+    "Strong foundation in QA fundamentals",
+    "Some automation experience with Selenium/Python",
+    "Good manual testing skills",
+    "ISTQB certification demonstrates commitment",
+    "Learning attitude and growth mindset",
+    "Relevant CS degree",
+    "Achieved 90% automation coverage at current role"
+  ],
+  "weaknesses": [
+    "Significantly below experience requirement",
+    "Limited framework experience (only Selenium, learning Cypress)",
+    "No production-scale testing experience",
+    "Minimal CI/CD integration knowledge",
+    "No performance or security testing",
+    "Limited database testing depth"
+  ],
+  "recommendation": "Consider for junior QA role or with adjusted expectations - needs mentorship",
+  "confidence_level": 0.75,
+  "notes": "Emily has good QA fundamentals and shows promise, but experience gap is significant (1.5 years vs 3+ required). Would be better suited for a junior QA engineer role. If hired for this role, would need close mentorship, training budget, and time to ramp up on additional frameworks and testing types. Consider if team has bandwidth to support junior-level growth."
+}

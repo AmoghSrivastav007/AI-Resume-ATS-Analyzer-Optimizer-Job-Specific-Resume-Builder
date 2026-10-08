@@ -1,0 +1,64 @@
+{
+  "resume_id": "resume_01_mid_tech",
+  "resume_file": "resume_01_mid_tech.txt",
+  "jd_id": "jd_03_backend_engineer",
+  "jd_file": "jd_03_backend_engineer.txt",
+  "expected_match_score": 0.85,
+  "score_range": [0.80, 0.90],
+  "match_category": "strong_match",
+  "match_rationale": "Sarah Chen is an excellent match for the Backend Engineer role. She has 6 years of experience with strong Python/FastAPI expertise, PostgreSQL optimization skills, Docker/containerization, and API development experience. All required skills align well.",
+  "key_matched_skills": [
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "Docker",
+    "RESTful APIs",
+    "Redis",
+    "OAuth2",
+    "Git",
+    "Testing (unit, integration)",
+    "Async programming (Celery)"
+  ],
+  "missing_critical_skills": [
+    "Kubernetes"
+  ],
+  "partially_matched_skills": {
+    "GraphQL": "Mentioned as 'collaborated with' but not expert-level",
+    "Kubernetes": "Not mentioned, but has Docker experience"
+  },
+  "ats_score_expectations": {
+    "keyword_density": [0.75, 0.90],
+    "section_completeness": 1.0,
+    "format_quality": [0.85, 1.0],
+    "experience_match": [0.80, 0.95]
+  },
+  "hallucination_check": {
+    "fabricated_skills": [],
+    "exaggerated_experience": false,
+    "invented_companies": false,
+    "skill_level_inflation": false,
+    "date_inconsistencies": false
+  },
+  "detailed_skill_comparison": {
+    "required_skills_coverage": 0.90,
+    "preferred_skills_coverage": 0.40,
+    "experience_level_match": "exceeds_minimum",
+    "education_match": true
+  },
+  "red_flags": [],
+  "strengths": [
+    "Strong backend experience with exact tech stack",
+    "Proven track record of performance optimization",
+    "Leadership/mentoring experience",
+    "CI/CD and production experience",
+    "AWS cloud experience"
+  ],
+  "weaknesses": [
+    "Missing Kubernetes experience (preferred skill)",
+    "No explicit GraphQL expertise",
+    "Could have more event-driven architecture experience"
+  ],
+  "recommendation": "Strong hire - proceed to interview",
+  "confidence_level": 0.95,
+  "notes": "Excellent technical fit with 6 years experience matching the 3-5 year requirement. All core backend skills present. Only gap is Kubernetes which is listed as 'preferred' not 'required'."
+}
