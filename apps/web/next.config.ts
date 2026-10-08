@@ -1,20 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Enable instrumentation for Sentry
-  experimental: {
-    instrumentationHook: true,
-  },
-  
-  // Sentry webpack plugin configuration
-  webpack: (config, { isServer }) => {
-    // Sentry source maps upload (only in production)
-    if (process.env.NODE_ENV === "production" && process.env.SENTRY_AUTH_TOKEN) {
-      config.devtool = "hidden-source-map";
-    }
-    
-    return config;
-  },
+  // Turbopack configuration (empty to silence warning)
+  turbopack: {},
 };
 
 export default nextConfig;
